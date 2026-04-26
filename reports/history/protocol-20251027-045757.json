@@ -1,0 +1,192 @@
+{
+  "topic": "NLP-Based Automation of Systematic Literature Reviews in Computer Science",
+  "picoc": {
+    "Population": [
+      "Computer Science Researchers",
+      "Software Engineers",
+      "Graduate Students",
+      "Domain Experts",
+      "researcher"
+    ],
+    "Intervention": [
+      "NLP Automation",
+      "Transformer Models",
+      "BERT Classifier",
+      "Semantic Search"
+    ],
+    "Comparison": [
+      "Manual Screening",
+      "Keyword Search",
+      "Rule based Systems",
+      "Traditional IR"
+    ],
+    "Outcome": [
+      "Precision",
+      "Recall",
+      "f1 score",
+      "Coverage",
+      "Time Savings"
+    ],
+    "Context": [
+      "Digital Libraries",
+      "Conference Proceedings",
+      "ArXiv Preprints",
+      "IEEE Xplore",
+      "ACM Digital Library"
+    ]
+  },
+  "rqs": [
+    "What is the impact of NLP automation (e.g., BERT classifiers) on precision and recall compared to manual screening in CS systematic reviews?",
+    "Which NLP-based semantic search methods provide the greatest time savings and coverage when applied to digital libraries such as IEEE Xplore and ACM DL?",
+    "In which scenarios do transformer models outperform traditional keyword search for extracting relevant studies from arXiv preprints in computer science?"
+  ],
+  "base_query": "(\"Computer Science Researchers\" OR \"Software Engineers\" OR \"Graduate Students\" OR \"Domain Experts\" OR \"researcher\") AND (\"NLP Automation\" OR \"Transformer Models\" OR \"BERT Classifier\" OR \"Semantic Search\") AND (\"Manual Screening\" OR \"Keyword Search\" OR \"Rule based Systems\" OR \"Traditional IR\") AND (\"Precision\" OR \"Recall\" OR \"f1 score\" OR \"Coverage\" OR \"Time Savings\") AND (\"Digital Libraries\" OR \"Conference Proceedings\" OR \"ArXiv Preprints\" OR \"IEEE Xplore\" OR \"ACM Digital Library\")",
+  "arxiv_query": "(all:\"Computer Science Researchers\" OR all:\"Software Engineers\" OR all:\"Graduate Students\" OR all:\"Domain Experts\" OR all:\"researcher\") AND (all:\"NLP Automation\" OR all:\"Transformer Models\" OR all:\"BERT Classifier\" OR all:\"Semantic Search\") AND (all:\"Manual Screening\" OR all:\"Keyword Search\" OR all:\"Rule based Systems\" OR all:\"Traditional IR\") AND (all:\"Precision\" OR all:\"Recall\" OR all:\"f1 score\" OR all:\"Coverage\" OR all:\"Time Savings\") AND (all:\"Digital Libraries\" OR all:\"Conference Proceedings\" OR all:\"ArXiv Preprints\" OR all:\"IEEE Xplore\" OR all:\"ACM Digital Library\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2015-2025",
+      "last 10 years",
+      "English",
+      "Peer\u2011reviewed preprints",
+      "Empirical evaluation studies",
+      "arXiv CS categories (cs.*, stat.ML)",
+      "Digital library metadata",
+      "Citations \u22655",
+      "Altmetric score \u226510",
+      "Open\u2011access full text"
+    ],
+    "exclude": [
+      "pre-2015",
+      "older than 10 years",
+      "Non-English",
+      "languages other than English",
+      "Opinion pieces",
+      "Non\u2011empirical tutorials",
+      "Non\u2011CS arXiv categories",
+      "Conference abstracts not indexed",
+      "Zero citations",
+      "No impact metrics"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Is the study\u2019s objective and research question explicitly defined?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the NLP methods (e.g., BERT, transformer) described in sufficient technical detail?",
+        "weight": 1.0
+      },
+      {
+        "text": "Does the evaluation report both precision and recall (or F1) for the automation approach?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the dataset of primary studies (e.g., from IEEE Xplore, ACM DL) clearly sourced and reproducible?",
+        "weight": 0.5
+      },
+      {
+        "text": "Are limitations of the NLP approach and comparison to manual screening discussed?",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 2.6
+  },
+  "extraction_form": {
+    "fields": [
+      {
+        "name": "Year",
+        "type": "number",
+        "options": [],
+        "help": "Publication year of the study"
+      },
+      {
+        "name": "Venue",
+        "type": "text",
+        "options": [],
+        "help": "Conference, journal, or repository where the study appeared"
+      },
+      {
+        "name": "Research type",
+        "type": "select",
+        "options": [
+          "Theoretical",
+          "Empirical",
+          "Methodological",
+          "Survey",
+          "Case Study"
+        ],
+        "help": "Overall category of the study"
+      },
+      {
+        "name": "Process phases",
+        "type": "multiselect",
+        "options": [
+          "Planning",
+          "Search",
+          "Screening",
+          "Data Extraction",
+          "Synthesis",
+          "Reporting"
+        ],
+        "help": "SLR stages addressed or automated by the NLP approach"
+      },
+      {
+        "name": "NLP technology",
+        "type": "multiselect",
+        "options": [
+          "BERT",
+          "RoBERTa",
+          "GPT",
+          "Transformer",
+          "Semantic Search",
+          "Keyword Expansion",
+          "Rule\u2011based"
+        ],
+        "help": "Key NLP models or techniques used"
+      },
+      {
+        "name": "Evaluation dataset",
+        "type": "text",
+        "options": [],
+        "help": "Dataset, benchmark, or case study used for evaluation (e.g., IEEE Xplore corpus, arXiv subset)"
+      },
+      {
+        "name": "Metrics reported",
+        "type": "multiselect",
+        "options": [
+          "Precision",
+          "Recall",
+          "F1 Score",
+          "Coverage",
+          "Time Savings",
+          "Accuracy",
+          "Other"
+        ],
+        "help": "Performance measures presented in the study"
+      },
+      {
+        "name": "Findings summary",
+        "type": "long_text",
+        "options": [],
+        "help": "Key results and conclusions relevant to the research questions"
+      },
+      {
+        "name": "Reported gaps/challenges",
+        "type": "long_text",
+        "options": [],
+        "help": "Limitations, open issues, or future work identified by the authors"
+      }
+    ]
+  }
+}

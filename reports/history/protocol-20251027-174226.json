@@ -1,0 +1,147 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Processing Systems",
+      "Embedded Devices",
+      "High Performance Computing",
+      "researcher"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "HeapSort",
+      "Radix Sort",
+      "Parallel Sorting"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Bubble Sort",
+      "Selection Sort",
+      "Shell Sort",
+      "Naive Sorting"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Scalability",
+      "Throughput"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time, space, and stability differences between QuickSort, MergeSort, HeapSort, Radix Sort, and Parallel Sorting versus Insertion, Bubble, Selection, Shell, and Naive sorts in academic journals?",
+    "Which intervention sorting algorithms provide better scalability and throughput than classic sorts on high\u2011performance computing and embedded devices according to benchmark suites?",
+    "In which contexts (academic journals, conference proceedings, open\u2011source repositories) are parallel sorting algorithms reported to outperform traditional sorts in throughput?"
+  ],
+  "base_query": "(\"Software Developers\" OR \"Algorithm Researchers\" OR \"Data Processing Systems\" OR \"Embedded Devices\" OR \"High Performance Computing\" OR \"researcher\") AND (\"QuickSort\" OR \"MergeSort\" OR \"HeapSort\" OR \"Radix Sort\" OR \"Parallel Sorting\") AND (\"Insertion Sort\" OR \"Bubble Sort\" OR \"Selection Sort\" OR \"Shell Sort\" OR \"Naive Sorting\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Stability\" OR \"Scalability\" OR \"Throughput\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Software Developers\" OR all:\"Algorithm Researchers\" OR all:\"Data Processing Systems\" OR all:\"Embedded Devices\" OR all:\"High Performance Computing\" OR all:\"researcher\") AND (all:\"QuickSort\" OR all:\"MergeSort\" OR all:\"HeapSort\" OR all:\"Radix Sort\" OR all:\"Parallel Sorting\") AND (all:\"Insertion Sort\" OR all:\"Bubble Sort\" OR all:\"Selection Sort\" OR all:\"Shell Sort\" OR all:\"Naive Sorting\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Stability\" OR all:\"Scalability\" OR all:\"Throughput\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industry Reports\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2010\u2013present",
+      "Last 10 years",
+      "English",
+      "English abstracts",
+      "Research articles",
+      "Preprint papers",
+      "arXiv CS categories (e.g., cs.DS, cs.FL)",
+      "Conference preprints on arXiv",
+      "Citations \u2265 5",
+      "Highly\u2011cited arXiv versions"
+    ],
+    "exclude": [
+      "Before 2010",
+      "Older than 10 years",
+      "Non\u2011English full text",
+      "Languages other than English",
+      "Editorials",
+      "Book chapters",
+      "Non\u2011CS arXiv categories",
+      "Non\u2011peer\u2011reviewed blogs",
+      "Zero citations",
+      "Uncited preprints"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Is the algorithm implementation described in sufficient detail to reproduce results?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are experimental settings (hardware, datasets, benchmarks) fully reported?",
+        "weight": 1.0
+      },
+      {
+        "text": "Does the study use statistically sound methods to compare sorting performance?",
+        "weight": 0.5
+      },
+      {
+        "text": "Are limitations and threats to validity explicitly discussed?",
+        "weight": 0.5
+      },
+      {
+        "text": "Is the study focused on contexts relevant to the PICOC (e.g., HPC, embedded, benchmarks)?",
+        "weight": 1.0
+      }
+    ],
+    "cutoff": 2.6
+  },
+  "extraction_form": {
+    "fields": [
+      {
+        "name": "Research type",
+        "type": "text",
+        "help": "Theoretical (abstract, concepts) or Empirical (data/case studies)."
+      },
+      {
+        "name": "By process phases, stages",
+        "type": "text",
+        "help": "Use lifecycle/framework stages (e.g., MAPE-K, context-aware lifecycle)."
+      },
+      {
+        "name": "By technology, framework, or platform",
+        "type": "text",
+        "help": "Technologies, frameworks, tools or platforms used."
+      },
+      {
+        "name": "By application field and/or industry domain",
+        "type": "text",
+        "help": "Primary application field/domain (e.g., manufacturing, VR)."
+      },
+      {
+        "name": "Gaps and challenges",
+        "type": "text",
+        "help": "Identified gaps/challenges and future needs."
+      },
+      {
+        "name": "Findings in research",
+        "type": "text",
+        "help": "Main findings (framework, algorithm, methodology, data model, approach)."
+      },
+      {
+        "name": "Evaluation method",
+        "type": "text",
+        "help": "Case study, experiment, survey, mathematical demonstration, indicators."
+      }
+    ]
+  }
+}

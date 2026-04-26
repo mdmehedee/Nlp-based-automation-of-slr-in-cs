@@ -1,0 +1,47 @@
+{
+  "topic": "Sorting Algorithm",
+  "picoc": {
+    "Population": [
+      "Algorithm Researchers",
+      "Software Developers",
+      "Database Systems",
+      "Embedded Systems",
+      "High Performance Computing"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "Radix Sort",
+      "Parallel Sorting",
+      "GPU Sorting"
+    ],
+    "Comparison": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Heap Sort",
+      "Selection Sort",
+      "Shell Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Runtime",
+      "Throughput",
+      "Scalability"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the runtime and scalability differences between QuickSort, MergeSort, Radix Sort, Parallel Sorting, and GPU Sorting compared to classic sorts in benchmark suites?",
+    "Which sorting algorithms provide the best throughput for high\u2011performance computing and embedded systems according to industry reports?",
+    "In which contexts (academic journals, conference proceedings, open\u2011source repositories) are parallel and GPU sorting algorithms reported to outperform traditional sorts in scalability?"
+  ],
+  "base_query": "(\"Algorithm Researchers\" OR \"Software Developers\" OR \"Database Systems\" OR \"Embedded Systems\" OR \"High Performance Computing\") AND (\"QuickSort\" OR \"MergeSort\" OR \"Radix Sort\" OR \"Parallel Sorting\" OR \"GPU Sorting\") AND (\"Bubble Sort\" OR \"Insertion Sort\" OR \"Heap Sort\" OR \"Selection Sort\" OR \"Shell Sort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Runtime\" OR \"Throughput\" OR \"Scalability\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Algorithm Researchers\" OR all:\"Software Developers\" OR all:\"Database Systems\" OR all:\"Embedded Systems\" OR all:\"High Performance Computing\") AND (all:\"QuickSort\" OR all:\"MergeSort\" OR all:\"Radix Sort\" OR all:\"Parallel Sorting\" OR all:\"GPU Sorting\") AND (all:\"Bubble Sort\" OR all:\"Insertion Sort\" OR all:\"Heap Sort\" OR all:\"Selection Sort\" OR all:\"Shell Sort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Runtime\" OR all:\"Throughput\" OR all:\"Scalability\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industry Reports\")"
+}

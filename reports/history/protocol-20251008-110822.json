@@ -1,0 +1,27 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Algorithm Engineers"
+    ],
+    "Intervention": [
+      "QuickSort"
+    ],
+    "Comparison": [
+      "Counting Sort"
+    ],
+    "Outcome": [
+      "Time Complexity"
+    ],
+    "Context": [
+      "Academic Journals"
+    ]
+  },
+  "rqs": [
+    "What is the reported time complexity of QuickSort versus Counting Sort in academic journal articles authored by algorithm engineers?",
+    "Which factors influence the observed time complexity differences between QuickSort and Counting Sort as reported by algorithm engineers in scholarly journals?",
+    "In which scenarios do algorithm engineers prefer QuickSort over Counting Sort based on time complexity findings in academic journal publications?"
+  ],
+  "base_query": "(\"Algorithm Engineers\") AND (\"QuickSort\") AND (\"Counting Sort\") AND (\"Time Complexity\") AND (\"Academic Journals\")",
+  "arxiv_query": "(all:\"Algorithm Engineers\") AND (all:\"QuickSort\") AND (all:\"Counting Sort\") AND (all:\"Time Complexity\") AND (all:\"Academic Journals\")"
+}

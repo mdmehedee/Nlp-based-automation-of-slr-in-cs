@@ -1,0 +1,47 @@
+{
+  "topic": "ray tracing algorithms in computer graphics",
+  "picoc": {
+    "Population": [
+      "Graphics Researchers",
+      "Game Developers",
+      "Visualization Engineers",
+      "Rendering Engineers",
+      "Research"
+    ],
+    "Intervention": [
+      "Ray Tracing",
+      "Path Tracing",
+      "Photon Mapping",
+      "Monte Carlo Ray Tracing",
+      "Hybrid Rendering"
+    ],
+    "Comparison": [
+      "Rasterization",
+      "Scanline Rendering",
+      "Voxel Rendering",
+      "Point-Based Rendering",
+      "Deferred Shading"
+    ],
+    "Outcome": [
+      "Render Time",
+      "Image Quality",
+      "Memory Usage",
+      "Scalability",
+      "Power Consumption"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Renderers",
+      "Benchmark Suites",
+      "Industry Case Studies"
+    ]
+  },
+  "rqs": [
+    "What are the differences in render time and image quality between ray tracing and rasterization in academic and industry contexts?",
+    "Which hybrid rendering approaches combine ray tracing with rasterization to improve scalability and memory usage for game developers?",
+    "In which scenarios do Monte Carlo ray tracing methods outperform voxel rendering in terms of power consumption and image quality?"
+  ],
+  "base_query": "(\"Graphics Researchers\" OR \"Game Developers\" OR \"Visualization Engineers\" OR \"Rendering Engineers\" OR \"Research\") AND (\"Ray Tracing\" OR \"Path Tracing\" OR \"Photon Mapping\" OR \"Monte Carlo Ray Tracing\" OR \"Hybrid Rendering\") AND (\"Rasterization\" OR \"Scanline Rendering\" OR \"Voxel Rendering\" OR \"Point-Based Rendering\" OR \"Deferred Shading\") AND (\"Render Time\" OR \"Image Quality\" OR \"Memory Usage\" OR \"Scalability\" OR \"Power Consumption\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Renderers\" OR \"Benchmark Suites\" OR \"Industry Case Studies\")",
+  "arxiv_query": "(all:\"Graphics Researchers\" OR all:\"Game Developers\" OR all:\"Visualization Engineers\" OR all:\"Rendering Engineers\" OR all:\"Research\") AND (all:\"Ray Tracing\" OR all:\"Path Tracing\" OR all:\"Photon Mapping\" OR all:\"Monte Carlo Ray Tracing\" OR all:\"Hybrid Rendering\") AND (all:\"Rasterization\" OR all:\"Scanline Rendering\" OR all:\"Voxel Rendering\" OR all:\"Point-Based Rendering\" OR all:\"Deferred Shading\") AND (all:\"Render Time\" OR all:\"Image Quality\" OR all:\"Memory Usage\" OR all:\"Scalability\" OR all:\"Power Consumption\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Renderers\" OR all:\"Benchmark Suites\" OR all:\"Industry Case Studies\")"
+}

@@ -1,0 +1,78 @@
+{
+  "topic": "Sorting Algorithm",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Engineers",
+      "Computer Science Students",
+      "Embedded Systems",
+      "researcher"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "HeapSort",
+      "Radix Sort",
+      "TimSort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Bubble Sort",
+      "Selection Sort",
+      "Shell Sort",
+      "Naive Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Runtime",
+      "Throughput",
+      "Scalability"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industrial Applications"
+    ]
+  },
+  "rqs": [
+    "What are the observed time and space complexities of QuickSort, MergeSort, HeapSort, Radix Sort, and TimSort across studies in academic journals and conference proceedings?",
+    "Which sorting algorithm among QuickSort, MergeSort, HeapSort, Radix Sort, and TimSort demonstrates superior runtime performance compared to Insertion, Bubble, Selection, Shell, and Naive sorts in benchmark suites?",
+    "In which application contexts (e.g., embedded systems, industrial) do advanced sorts (QuickSort, MergeSort, HeapSort, Radix Sort, TimSort) outperform classic sorts regarding scalability and throughput?"
+  ],
+  "base_query": "(\"Software Developers\" OR \"Algorithm Researchers\" OR \"Data Engineers\" OR \"Computer Science Students\" OR \"Embedded Systems\" OR \"researcher\") AND (\"QuickSort\" OR \"MergeSort\" OR \"HeapSort\" OR \"Radix Sort\" OR \"TimSort\") AND (\"Insertion Sort\" OR \"Bubble Sort\" OR \"Selection Sort\" OR \"Shell Sort\" OR \"Naive Sort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Runtime\" OR \"Throughput\" OR \"Scalability\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industrial Applications\")",
+  "arxiv_query": "(all:\"Software Developers\" OR all:\"Algorithm Researchers\" OR all:\"Data Engineers\" OR all:\"Computer Science Students\" OR all:\"Embedded Systems\" OR all:\"researcher\") AND (all:\"QuickSort\" OR all:\"MergeSort\" OR all:\"HeapSort\" OR all:\"Radix Sort\" OR all:\"TimSort\") AND (all:\"Insertion Sort\" OR all:\"Bubble Sort\" OR all:\"Selection Sort\" OR all:\"Shell Sort\" OR all:\"Naive Sort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Runtime\" OR all:\"Throughput\" OR all:\"Scalability\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industrial Applications\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2015-2025",
+      "last 10 years",
+      "English",
+      "English abstracts",
+      "conference papers",
+      "journal articles",
+      "preprints",
+      "arXiv CS categories (cs.DS, cs.SE)",
+      "peer\u2011reviewed conference proceedings",
+      "high citation count"
+    ],
+    "exclude": [
+      "before 2000",
+      "older than 15 years",
+      "non-English",
+      "languages other than English",
+      "books",
+      "theses",
+      "blog posts",
+      "non\u2011CS arXiv categories",
+      "low citation",
+      "non\u2011peer\u2011reviewed reports"
+    ]
+  }
+}

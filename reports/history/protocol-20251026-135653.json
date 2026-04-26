@@ -1,0 +1,102 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Processing Systems",
+      "Embedded Systems",
+      "High Performance Computing"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "Radix Sort",
+      "Parallel Sorting",
+      "Cache Aware Sorting"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Bubble Sort",
+      "Heap Sort",
+      "Selection Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Scalability",
+      "Throughput"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, MergeSort, and Radix Sort versus Insertion Sort and Bubble Sort in academic journals and conference proceedings?",
+    "Which parallel or cache-aware sorting algorithms provide better scalability and throughput than Heap Sort for high performance computing systems in benchmark suites?",
+    "In which scenarios do stable sorting algorithms (e.g., MergeSort) outperform unstable ones (e.g., QuickSort) regarding scalability for data processing systems in open source repositories?"
+  ],
+  "base_query": "(\"Software Developers\" OR \"Algorithm Researchers\" OR \"Data Processing Systems\" OR \"Embedded Systems\" OR \"High Performance Computing\") AND (\"QuickSort\" OR \"MergeSort\" OR \"Radix Sort\" OR \"Parallel Sorting\" OR \"Cache Aware Sorting\") AND (\"Insertion Sort\" OR \"Bubble Sort\" OR \"Heap Sort\" OR \"Selection Sort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Stability\" OR \"Scalability\" OR \"Throughput\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Software Developers\" OR all:\"Algorithm Researchers\" OR all:\"Data Processing Systems\" OR all:\"Embedded Systems\" OR all:\"High Performance Computing\") AND (all:\"QuickSort\" OR all:\"MergeSort\" OR all:\"Radix Sort\" OR all:\"Parallel Sorting\" OR all:\"Cache Aware Sorting\") AND (all:\"Insertion Sort\" OR all:\"Bubble Sort\" OR all:\"Heap Sort\" OR all:\"Selection Sort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Stability\" OR all:\"Scalability\" OR all:\"Throughput\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industry Reports\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2015-2025",
+      "Pre-2020 seminal works",
+      "English",
+      "English abstract",
+      "Research article",
+      "Preprint manuscript",
+      "arXiv CS categories (cs.DS, cs.SE)",
+      "Conference proceedings in arXiv",
+      "Citations > 5",
+      "High download count"
+    ],
+    "exclude": [
+      "Before 2000",
+      "Future publications",
+      "Non-English",
+      "No English abstract",
+      "Editorial",
+      "Book chapter",
+      "Non\u2011CS arXiv categories",
+      "Blog posts",
+      "Zero citations",
+      "Low download count"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Does the study clearly describe the algorithm implementations and experimental setup?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are performance metrics (time, space, scalability) reported with appropriate units and statistical analysis?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the source code or benchmark data publicly available for replication?",
+        "weight": 0.5
+      },
+      {
+        "text": "Does the paper compare the proposed sorting method against baseline algorithms listed in the PICOC?",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 2.6
+  }
+}

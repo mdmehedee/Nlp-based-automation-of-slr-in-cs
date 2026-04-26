@@ -1,0 +1,147 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Processing Systems",
+      "Embedded Systems",
+      "High Performance Computing",
+      "researcher"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "HeapSort",
+      "Radix Sort",
+      "TimSort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Bubble Sort",
+      "Selection Sort",
+      "Shell Sort",
+      "Naive Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Scalability",
+      "Throughput"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, MergeSort, HeapSort, Radix Sort, and TimSort versus Insertion, Bubble, Selection, Shell, and Naive Sort in academic journals and conference proceedings?",
+    "Which advanced sorting algorithms (QuickSort, MergeSort, HeapSort, Radix Sort, TimSort) show better stability and scalability than classic sorts in open\u2011source repositories and benchmark suites?",
+    "In which contexts (high\u2011performance computing, embedded systems, data processing) do advanced sorting algorithms outperform classic ones in throughput according to industry reports and benchmark suites?"
+  ],
+  "base_query": "",
+  "arxiv_query": "",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2010-2025",
+      "last 10 years",
+      "post-2010",
+      "English",
+      "English abstracts",
+      "English full text",
+      "peer-reviewed conference papers",
+      "journal articles",
+      "preprint manuscripts",
+      "arXiv CS categories (cs.DS, cs.SE)"
+    ],
+    "exclude": [
+      "pre-2000",
+      "before 2005",
+      "1990s",
+      "non-English",
+      "languages other than English",
+      "translated only",
+      "editorials",
+      "book chapters",
+      "theses",
+      "blog posts"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Is the algorithm implementation described in sufficient detail to reproduce?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are experimental settings (hardware, datasets) fully reported?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the evaluation methodology (metrics, baselines) appropriate for the research question?",
+        "weight": 0.5
+      },
+      {
+        "text": "Are the results validated against established benchmarks or prior work?",
+        "weight": 0.5
+      },
+      {
+        "text": "Does the study discuss relevance to the target contexts (e.g., HPC, embedded)?",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 2.27
+  },
+  "extraction_form": {
+    "fields": [
+      {
+        "name": "Research type",
+        "type": "text",
+        "help": "Theoretical (abstract, concepts) or Empirical (data/case studies)."
+      },
+      {
+        "name": "By process phases, stages",
+        "type": "text",
+        "help": "Use lifecycle/framework stages (e.g., MAPE-K, context-aware lifecycle)."
+      },
+      {
+        "name": "By technology, framework, or platform",
+        "type": "text",
+        "help": "Technologies, frameworks, tools or platforms used."
+      },
+      {
+        "name": "By application field and/or industry domain",
+        "type": "text",
+        "help": "Primary application field/domain (e.g., manufacturing, VR)."
+      },
+      {
+        "name": "Gaps and challenges",
+        "type": "text",
+        "help": "Identified gaps/challenges and future needs."
+      },
+      {
+        "name": "Findings in research",
+        "type": "text",
+        "help": "Main findings (framework, algorithm, methodology, data model, approach)."
+      },
+      {
+        "name": "Evaluation method",
+        "type": "text",
+        "help": "Case study, experiment, survey, mathematical demonstration, indicators."
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Algorithm Designers",
+      "Software Developers",
+      "Embedded Systems",
+      "High Performance Computing",
+      "researcher"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "HeapSort",
+      "Radix Sort",
+      "TimSort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Selection Sort",
+      "Bubble Sort",
+      "Shell Sort",
+      "Counting Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Cache Efficiency",
+      "Parallel Speedup"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industrial Case Studies"
+    ]
+  },
+  "rqs": [
+    "What is the comparative time complexity of QuickSort, MergeSort, HeapSort, Radix Sort, and TimSort versus classic sorts in academic and industrial contexts?",
+    "Which advanced sorting algorithm (QuickSort, MergeSort, HeapSort, Radix Sort, TimSort) offers superior cache efficiency and parallel speedup for high\u2011performance computing workloads?",
+    "In which scenarios do stable advanced sorts like TimSort outperform unstable ones regarding space usage and stability for embedded systems?"
+  ],
+  "base_query": "(\"Algorithm Designers\" OR \"Software Developers\" OR \"Embedded Systems\" OR \"High Performance Computing\" OR \"researcher\") AND (\"QuickSort\" OR \"MergeSort\" OR \"HeapSort\" OR \"Radix Sort\" OR \"TimSort\") AND (\"Insertion Sort\" OR \"Selection Sort\" OR \"Bubble Sort\" OR \"Shell Sort\" OR \"Counting Sort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Stability\" OR \"Cache Efficiency\" OR \"Parallel Speedup\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industrial Case Studies\")",
+  "arxiv_query": "(all:\"Algorithm Designers\" OR all:\"Software Developers\" OR all:\"Embedded Systems\" OR all:\"High Performance Computing\" OR all:\"researcher\") AND (all:\"QuickSort\" OR all:\"MergeSort\" OR all:\"HeapSort\" OR all:\"Radix Sort\" OR all:\"TimSort\") AND (all:\"Insertion Sort\" OR all:\"Selection Sort\" OR all:\"Bubble Sort\" OR all:\"Shell Sort\" OR all:\"Counting Sort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Stability\" OR all:\"Cache Efficiency\" OR all:\"Parallel Speedup\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industrial Case Studies\")"
+}

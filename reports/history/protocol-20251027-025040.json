@@ -1,0 +1,44 @@
+{
+  "topic": "NLP-Based Automation of Systematic Literature Reviews in Computer Science",
+  "picoc": {
+    "Population": [
+      "Computer Science Researchers",
+      "Systematic Review Authors",
+      "Software Engineers",
+      "Academic Librarians",
+      "Graduate Students",
+      "researcher"
+    ],
+    "Intervention": [
+      "Transformer Models",
+      "BERT Classifier",
+      "Topic Modeling",
+      "Information Extraction",
+      "Automated Screening"
+    ],
+    "Comparison": [
+      "Manual Screening",
+      "Keyword Search",
+      "Rule Based Systems",
+      "Classical Machine Learning",
+      "Heuristic Baselines"
+    ],
+    "Outcome": [
+      "Precision",
+      "Recall",
+      "f1-score",
+      "Processing Time",
+      "Scalability"
+    ],
+    "Context": [
+      "Digital Libraries",
+      "Conference Proceedings",
+      "ArXiv Preprints",
+      "IEEE Xplore",
+      "ACM Digital Library"
+    ]
+  },
+  "rqs": [],
+  "base_query": "",
+  "arxiv_query": ""
+}

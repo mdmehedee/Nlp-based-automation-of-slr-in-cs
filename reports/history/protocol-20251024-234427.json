@@ -1,0 +1,77 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Processing Systems",
+      "Embedded Systems",
+      "High Performance Computing"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "Merge Sort",
+      "Heap Sort",
+      "Radix Sort",
+      "Parallel Sorting"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Bubble Sort",
+      "Selection Sort",
+      "Shell Sort",
+      "Tim Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Scalability",
+      "Throughput"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, Merge Sort, Heap Sort, Radix Sort, and Parallel Sorting compared to classic sorts in academic and industry sources?",
+    "Which sorting algorithms demonstrate better scalability and throughput on high\u2011performance computing and embedded systems according to benchmark suites and open\u2011source repositories?",
+    "In which contexts (academic journals, conference proceedings, industry reports) is Parallel Sorting reported to achieve superior stability compared to traditional algorithms?"
+  ],
+  "base_query": "(\"Software Developers\" OR \"Algorithm Researchers\" OR \"Data Processing Systems\" OR \"Embedded Systems\" OR \"High Performance Computing\") AND (\"QuickSort\" OR \"Merge Sort\" OR \"Heap Sort\" OR \"Radix Sort\" OR \"Parallel Sorting\") AND (\"Insertion Sort\" OR \"Bubble Sort\" OR \"Selection Sort\" OR \"Shell Sort\" OR \"Tim Sort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Stability\" OR \"Scalability\" OR \"Throughput\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Software Developers\" OR all:\"Algorithm Researchers\" OR all:\"Data Processing Systems\" OR all:\"Embedded Systems\" OR all:\"High Performance Computing\") AND (all:\"QuickSort\" OR all:\"Merge Sort\" OR all:\"Heap Sort\" OR all:\"Radix Sort\" OR all:\"Parallel Sorting\") AND (all:\"Insertion Sort\" OR all:\"Bubble Sort\" OR all:\"Selection Sort\" OR all:\"Shell Sort\" OR all:\"Tim Sort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Stability\" OR all:\"Scalability\" OR all:\"Throughput\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industry Reports\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2020-2025",
+      "2010-2025",
+      "English",
+      "Research articles",
+      "Preprints",
+      "arXiv CS categories (cs.DS, cs.SE)",
+      "Conference proceedings (metadata indicated)",
+      "Cited in >5 other papers",
+      "Listed in benchmark suites",
+      "Open access full text"
+    ],
+    "exclude": [
+      "pre-2000",
+      "1990s",
+      "Non-English",
+      "Other languages",
+      "Editorials",
+      "Book chapters",
+      "Non\u2011CS arXiv categories",
+      "Blog posts",
+      "Uncited preprints",
+      "Non\u2011peer\u2011reviewed reports"
+    ]
+  }
+}

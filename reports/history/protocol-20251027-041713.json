@@ -1,0 +1,198 @@
+{
+  "topic": "NLP-Based Automation of Systematic Literature Reviews in Computer Science",
+  "picoc": {
+    "Population": [
+      "Computer Science Researchers",
+      "Software Engineers",
+      "Systematic Review Authors",
+      "Graduate Students",
+      "Academic Librarians",
+      "researcher"
+    ],
+    "Intervention": [
+      "NLP Automation",
+      "Transformer Models",
+      "Information Extraction",
+      "Text Mining",
+      "Semantic Search"
+    ],
+    "Comparison": [
+      "Manual Screening",
+      "Keyword Search",
+      "Rule Based Systems",
+      "Classical Machine Learning",
+      "Baseline Protocol"
+    ],
+    "Outcome": [
+      "Precision",
+      "Recall",
+      "f1score",
+      "Processing Time",
+      "Scalability"
+    ],
+    "Context": [
+      "Digital Libraries",
+      "Conference Proceedings",
+      "ArXiv Repository",
+      "IEEE Xplore",
+      "ACM Digital Library"
+    ]
+  },
+  "rqs": [
+    "What is the impact of NLP automation on precision, recall, and f1\u2011score compared to manual screening for CS systematic reviews?",
+    "Which transformer\u2011based information extraction techniques achieve the highest precision and processing speed when selecting studies from digital libraries?",
+    "In which digital library contexts (e.g., arXiv, IEEE Xplore, ACM DL) does NLP\u2011driven semantic search improve scalability and reduce processing time versus keyword search?"
+  ],
+  "base_query": "",
+  "arxiv_query": "",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2020-2025",
+      "last 5 years",
+      "English",
+      "peer\u2011reviewed conference papers",
+      "journal articles",
+      "arXiv preprints in CS categories (cs.*)",
+      "digital library metadata records",
+      "citations \u22655",
+      "highly cited (top 10% in field)",
+      "open access full text"
+    ],
+    "exclude": [
+      "pre-2015",
+      "older than 10 years",
+      "non-English",
+      "languages other than English",
+      "editorials",
+      "non\u2011research articles",
+      "non\u2011CS arXiv categories",
+      "blog posts",
+      "uncited or zero citations",
+      "low citation count (<5)"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Is the study\u2019s objective and research question explicitly defined?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the data sources (e.g., digital libraries) and selection criteria fully described?",
+        "weight": 1.0
+      },
+      {
+        "text": "Does the methodology include reproducible NLP model configurations and hyperparameters?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are evaluation metrics (precision, recall, F1, processing time) reported with statistical significance?",
+        "weight": 0.5
+      },
+      {
+        "text": "Is the study\u2019s context (e.g., specific digital library) clearly specified and relevant to CS systematic reviews?",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 2.6
+  },
+  "extraction_form": {
+    "fields": [
+      {
+        "name": "Year",
+        "type": "number",
+        "options": [],
+        "help": "Publication year of the study"
+      },
+      {
+        "name": "Venue",
+        "type": "text",
+        "options": [],
+        "help": "Conference, journal, or repository where the work appeared"
+      },
+      {
+        "name": "Research Type",
+        "type": "select",
+        "options": [
+          "Theoretical",
+          "Empirical",
+          "Methodological",
+          "Review",
+          "Case Study"
+        ],
+        "help": "Overall category of the study"
+      },
+      {
+        "name": "NLP Technique(s)",
+        "type": "multiselect",
+        "options": [
+          "Transformer Models",
+          "BERT",
+          "GPT",
+          "Rule\u2011Based Systems",
+          "Classical Machine Learning",
+          "Semantic Search",
+          "Information Extraction",
+          "Text Mining",
+          "Knowledge Graphs"
+        ],
+        "help": "Primary NLP approaches used for automation"
+      },
+      {
+        "name": "Automation Phase(s)",
+        "type": "multiselect",
+        "options": [
+          "Literature Search",
+          "Study Screening",
+          "Data Extraction",
+          "Synthesis",
+          "Reporting",
+          "Quality Assessment"
+        ],
+        "help": "SLR stages that were automated"
+      },
+      {
+        "name": "Evaluation Dataset / Benchmark",
+        "type": "text",
+        "options": [],
+        "help": "Dataset, corpus, or benchmark used for evaluation"
+      },
+      {
+        "name": "Reported Metrics",
+        "type": "multiselect",
+        "options": [
+          "Precision",
+          "Recall",
+          "F1\u2011score",
+          "Processing Time",
+          "Scalability",
+          "Accuracy",
+          "Coverage",
+          "User Effort Reduction"
+        ],
+        "help": "Performance measures presented in the study"
+      },
+      {
+        "name": "Metric Values",
+        "type": "long_text",
+        "options": [],
+        "help": "Numeric values or tables for the reported metrics"
+      },
+      {
+        "name": "Identified Gaps / Challenges",
+        "type": "long_text",
+        "options": [],
+        "help": "Limitations, open issues, or future work highlighted by the authors"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Processing Systems",
+      "Embedded Systems",
+      "High Performance Computing",
+      "researcher"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "Merge Sort",
+      "Radix Sort",
+      "Parallel Sorting",
+      "GPU Sorting"
+    ],
+    "Comparison": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Heap Sort",
+      "Selection Sort",
+      "Shell Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Runtime",
+      "Throughput",
+      "Scalability"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, Merge Sort, and Radix Sort compared to Bubble, Insertion, and Heap Sort in academic journal studies?",
+    "Which parallel or GPU sorting algorithms provide the best scalability for high\u2011performance computing and embedded systems?",
+    "In which contexts (benchmark suites, open\u2011source repositories) do QuickSort and Merge Sort outperform traditional sorts in runtime and throughput?"
+  ],
+  "base_query": "(\"Software Developers\" OR \"Algorithm Researchers\" OR \"Data Processing Systems\" OR \"Embedded Systems\" OR \"High Performance Computing\" OR \"researcher\") AND (\"QuickSort\" OR \"Merge Sort\" OR \"Radix Sort\" OR \"Parallel Sorting\" OR \"GPU Sorting\") AND (\"Bubble Sort\" OR \"Insertion Sort\" OR \"Heap Sort\" OR \"Selection Sort\" OR \"Shell Sort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Runtime\" OR \"Throughput\" OR \"Scalability\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Software Developers\" OR all:\"Algorithm Researchers\" OR all:\"Data Processing Systems\" OR all:\"Embedded Systems\" OR all:\"High Performance Computing\" OR all:\"researcher\") AND (all:\"QuickSort\" OR all:\"Merge Sort\" OR all:\"Radix Sort\" OR all:\"Parallel Sorting\" OR all:\"GPU Sorting\") AND (all:\"Bubble Sort\" OR all:\"Insertion Sort\" OR all:\"Heap Sort\" OR all:\"Selection Sort\" OR all:\"Shell Sort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Runtime\" OR all:\"Throughput\" OR all:\"Scalability\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industry Reports\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2000\u2013present",
+      "last 10 years",
+      "English",
+      "Conference papers",
+      "Journal articles",
+      "Preprints",
+      "arXiv CS categories (e.g., cs.DS, cs.SE)",
+      "arXiv preprints with DOI",
+      "Peer\u2011reviewed or cited preprints",
+      "High\u2011citation arXiv entries"
+    ],
+    "exclude": [
+      "pre\u20111990",
+      "older than 20 years",
+      "non\u2011English",
+      "Books",
+      "Theses",
+      "arXiv non\u2011CS categories",
+      "blog posts",
+      "Uncited or low\u2011download preprints",
+      "Non\u2011scholarly reports",
+      "Pay\u2011walled"
+    ]
+  }
+}

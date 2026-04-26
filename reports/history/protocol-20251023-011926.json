@@ -1,0 +1,142 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Processing Systems",
+      "Embedded Systems",
+      "High Performance Computing"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "Merge Sort",
+      "Heap Sort",
+      "Radix Sort",
+      "Tim Sort"
+    ],
+    "Comparison": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Selection Sort",
+      "Shell Sort",
+      "Bucket Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Comparisons",
+      "Swaps"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industrial Case Studies"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, Merge Sort, and Heap Sort versus Bubble Sort, Insertion Sort, and Selection Sort in academic journals?",
+    "Which sorting algorithm (QuickSort, Merge Sort, Heap Sort, Radix Sort, Tim Sort) provides the best stability for data processing systems in benchmark suites?",
+    "In which scenarios do embedded systems prefer Tim Sort over Bubble Sort based on comparisons and swaps performance in open source repositories?"
+  ],
+  "base_query": "(\"Software Developers\" OR \"Algorithm Researchers\" OR \"Data Processing Systems\" OR \"Embedded Systems\" OR \"High Performance Computing\") AND (\"QuickSort\" OR \"Merge Sort\" OR \"Heap Sort\" OR \"Radix Sort\" OR \"Tim Sort\") AND (\"Bubble Sort\" OR \"Insertion Sort\" OR \"Selection Sort\" OR \"Shell Sort\" OR \"Bucket Sort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Stability\" OR \"Comparisons\" OR \"Swaps\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industrial Case Studies\")",
+  "arxiv_query": "(all:\"Software Developers\" OR all:\"Algorithm Researchers\" OR all:\"Data Processing Systems\" OR all:\"Embedded Systems\" OR all:\"High Performance Computing\") AND (all:\"QuickSort\" OR all:\"Merge Sort\" OR all:\"Heap Sort\" OR all:\"Radix Sort\" OR all:\"Tim Sort\") AND (all:\"Bubble Sort\" OR all:\"Insertion Sort\" OR all:\"Selection Sort\" OR all:\"Shell Sort\" OR all:\"Bucket Sort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Stability\" OR all:\"Comparisons\" OR all:\"Swaps\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industrial Case Studies\")",
+  "criteria": {
+    "Period": {
+      "include": [
+        "2000-2025",
+        "last 10 years",
+        "post-1999 publications"
+      ],
+      "exclude": [
+        "pre-2000",
+        "historical overviews only",
+        "future work proposals"
+      ]
+    },
+    "Language": {
+      "include": [
+        "English",
+        "original language of source"
+      ],
+      "exclude": [
+        "Non\u2011English",
+        "Translations only",
+        "Multilingual abstracts without full text"
+      ]
+    },
+    "Type of Literature": {
+      "include": [
+        "Peer\u2011reviewed journal articles",
+        "Conference papers",
+        "Technical reports",
+        "Theses/dissertations"
+      ],
+      "exclude": [
+        "Editorials",
+        "Opinion pieces",
+        "Book reviews",
+        "Magazine articles"
+      ]
+    },
+    "Type of Source": {
+      "include": [
+        "Academic journals",
+        "Conference proceedings",
+        "Open source repository documentation",
+        "Benchmark suite reports",
+        "Industrial case studies"
+      ],
+      "exclude": [
+        "Blog posts",
+        "Social media content",
+        "News articles",
+        "Patent filings"
+      ]
+    },
+    "Impact Source": {
+      "include": [
+        "High citation count",
+        "Top\u2011tier venues (e.g., ACM, IEEE)",
+        "Widely used benchmark suites"
+      ],
+      "exclude": [
+        "Low\u2011impact venues",
+        "Non\u2011indexed sources",
+        "Obscure workshops"
+      ]
+    },
+    "Accessibility": {
+      "include": [
+        "Full\u2011text available",
+        "Open access",
+        "Institutional access"
+      ],
+      "exclude": [
+        "Paywalled without access",
+        "Abstract only",
+        "Unavailable datasets"
+      ]
+    },
+    "Relevance to RQs": {
+      "include": [
+        "Analyzes time and space complexity of QuickSort, Merge Sort, Heap Sort vs simple sorts",
+        "Evaluates stability of sorting algorithms for data processing systems",
+        "Compares comparisons and swaps for embedded\u2011system scenarios",
+        "Provides empirical benchmark results"
+      ],
+      "exclude": [
+        "Discusses unrelated algorithms",
+        "Focuses on non\u2011sorting data structures",
+        "Theoretical without empirical data",
+        "Only high\u2011level overview without metrics"
+      ]
+    }
+  },
+  "libraries": [
+    "arxiv"
+  ]
+}

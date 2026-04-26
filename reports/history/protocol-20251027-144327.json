@@ -1,0 +1,146 @@
+{
+  "topic": "NLP-Based Automation of Systematic Literature Reviews in Computer Science",
+  "picoc": {
+    "Population": [
+      "Computer Science Researchers",
+      "Software Engineers",
+      "Data Scientists",
+      "Systematic Review Authors",
+      "researcher"
+    ],
+    "Intervention": [
+      "Transformer Models",
+      "BERT Classifiers",
+      "Topic Modeling",
+      "Information Extraction",
+      "Screening Bots"
+    ],
+    "Comparison": [
+      "Manual Screening",
+      "Keyword Search",
+      "Rule Based Systems",
+      "Classical Machine Learning",
+      "Heuristic Baselines"
+    ],
+    "Outcome": [
+      "precision",
+      "recall",
+      "f1score",
+      "Automation Time",
+      "Coverage"
+    ],
+    "Context": [
+      "Digital Libraries",
+      "Conference Proceedings",
+      "ArXiv Preprints",
+      "IEEE Xplore",
+      "ACM Digital Library"
+    ]
+  },
+  "rqs": [
+    "What is the impact of transformer models versus manual screening on precision, recall, and F1\u2011score in systematic literature reviews of computer science?",
+    "Which NLP\u2011based automation techniques (e.g., BERT classifiers, topic modeling, information extraction) reduce automation time while maintaining coverage compared to keyword search in digital libraries?",
+    "In which digital library contexts (e.g., IEEE Xplore, ACM DL, arXiv) do screening bots outperform rule\u2011based or classical ML systems in recall and automation time?"
+  ],
+  "base_query": "(\"Computer Science Researchers\" OR \"Software Engineers\" OR \"Data Scientists\" OR \"Systematic Review Authors\" OR \"researcher\") AND (\"Transformer Models\" OR \"BERT Classifiers\" OR \"Topic Modeling\" OR \"Information Extraction\" OR \"Screening Bots\") AND (\"Manual Screening\" OR \"Keyword Search\" OR \"Rule Based Systems\" OR \"Classical Machine Learning\" OR \"Heuristic Baselines\") AND (\"precision\" OR \"recall\" OR \"f1score\" OR \"Automation Time\" OR \"Coverage\") AND (\"Digital Libraries\" OR \"Conference Proceedings\" OR \"ArXiv Preprints\" OR \"IEEE Xplore\" OR \"ACM Digital Library\")",
+  "arxiv_query": "(all:\"Computer Science Researchers\" OR all:\"Software Engineers\" OR all:\"Data Scientists\" OR all:\"Systematic Review Authors\" OR all:\"researcher\") AND (all:\"Transformer Models\" OR all:\"BERT Classifiers\" OR all:\"Topic Modeling\" OR all:\"Information Extraction\" OR all:\"Screening Bots\") AND (all:\"Manual Screening\" OR all:\"Keyword Search\" OR all:\"Rule Based Systems\" OR all:\"Classical Machine Learning\" OR all:\"Heuristic Baselines\") AND (all:\"precision\" OR all:\"recall\" OR all:\"f1score\" OR all:\"Automation Time\" OR all:\"Coverage\") AND (all:\"Digital Libraries\" OR all:\"Conference Proceedings\" OR all:\"ArXiv Preprints\" OR all:\"IEEE Xplore\" OR all:\"ACM Digital Library\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2018-2025",
+      "post\u2011transformer era",
+      "English language",
+      "English abstract",
+      "peer\u2011reviewed conference/journal papers",
+      "arXiv preprints describing experiments",
+      "arXiv CS categories (cs.AI, cs.LG, cs.IR, cs.SE)",
+      "digital library preprints",
+      "cited \u22651 or presented at recognized venue",
+      "download/mention metrics indicating uptake"
+    ],
+    "exclude": [
+      "before 2015",
+      "pre\u2011deep\u2011learning",
+      "non\u2011English",
+      "no English abstract",
+      "editorials, commentaries",
+      "tutorials, surveys without empirical evaluation",
+      "arXiv non\u2011CS categories",
+      "non\u2011arXiv repositories",
+      "no citations and no venue",
+      "obscure unpublished reports"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Is the study\u2019s objective and research question explicitly defined?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the NLP methods (e.g., BERT, topic modeling) described in sufficient detail to replicate?",
+        "weight": 1.0
+      },
+      {
+        "text": "Does the evaluation report precision, recall, and F1\u2011score on a clearly defined test set?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the datasets and digital libraries used (e.g., IEEE Xplore, ACM DL) fully documented?",
+        "weight": 0.5
+      },
+      {
+        "text": "Is the comparison against manual screening or baseline methods statistically analyzed?",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 2.6
+  },
+  "extraction_form": {
+    "fields": [
+      {
+        "name": "Research type",
+        "type": "text",
+        "help": "Theoretical (abstract, concepts) or Empirical (data/case studies)."
+      },
+      {
+        "name": "By process phases, stages",
+        "type": "text",
+        "help": "Use lifecycle/framework stages (e.g., MAPE-K, context-aware lifecycle)."
+      },
+      {
+        "name": "By technology, framework, or platform",
+        "type": "text",
+        "help": "Technologies, frameworks, tools or platforms used."
+      },
+      {
+        "name": "By application field and/or industry domain",
+        "type": "text",
+        "help": "Primary application field/domain (e.g., manufacturing, VR)."
+      },
+      {
+        "name": "Gaps and challenges",
+        "type": "text",
+        "help": "Identified gaps/challenges and future needs."
+      },
+      {
+        "name": "Findings in research",
+        "type": "text",
+        "help": "Main findings (framework, algorithm, methodology, data model, approach)."
+      },
+      {
+        "name": "Evaluation method",
+        "type": "text",
+        "help": "Case study, experiment, survey, mathematical demonstration, indicators."
+      }
+    ]
+  }
+}

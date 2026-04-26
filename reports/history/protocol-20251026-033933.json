@@ -1,0 +1,115 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Processing Systems",
+      "Embedded Devices",
+      "High Performance Computing"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "HeapSort",
+      "Radix Sort",
+      "Parallel Sorting"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Bubble Sort",
+      "Selection Sort",
+      "Shell Sort",
+      "Naive Sorting"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Scalability",
+      "Throughput"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, MergeSort, HeapSort, Radix Sort, and parallel sorting versus classic sorts in academic and industry literature?",
+    "Which sorting algorithms demonstrate stability and scalability on high\u2011performance computing and embedded device contexts according to benchmark suites and open\u2011source repositories?",
+    "In which scenarios do parallel sorting techniques outperform traditional sorts in terms of throughput for data processing systems, as reported in conferences and journals?"
+  ],
+  "base_query": "",
+  "arxiv_query": "",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2015-2025",
+      "last 10 years",
+      "English",
+      "English abstract",
+      "research articles",
+      "preprint papers",
+      "arXiv CS categories (cs.DS, cs.CR, cs.CV)",
+      "conference/journal preprints",
+      "cited in later works",
+      "appears in recognized conference/journal"
+    ],
+    "exclude": [
+      "pre-2000",
+      "older than 15 years",
+      "non-English",
+      "languages other than English",
+      "blog posts",
+      "tutorials/lecture notes",
+      "arXiv physics or math categories",
+      "non\u2011CS repositories",
+      "uncited preprints",
+      "non\u2011indexed reports"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Are the research aims clearly stated?",
+        "weight": 0.0
+      },
+      {
+        "text": "Is the study design appropriate to the aims?",
+        "weight": 0.0
+      },
+      {
+        "text": "Are data sources and collection methods described?",
+        "weight": 0.0
+      },
+      {
+        "text": "Are variables/measures clearly defined?",
+        "weight": 0.0
+      },
+      {
+        "text": "Are analysis methods described and justified?",
+        "weight": 0.0
+      },
+      {
+        "text": "Are threats to validity or limitations discussed?",
+        "weight": 0.0
+      },
+      {
+        "text": "vfdvedf",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 0.5
+  }
+}

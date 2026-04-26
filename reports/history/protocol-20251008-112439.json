@@ -1,0 +1,22 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [],
+    "Intervention": [
+      "Quick Sort",
+      "Merge Sort"
+    ],
+    "Comparison": [],
+    "Outcome": [
+      "Time Complexity"
+    ],
+    "Context": []
+  },
+  "rqs": [
+    "What are the average-case time complexities of Quick Sort and Merge Sort on random input arrays of varying sizes?",
+    "Which algorithm, Quick Sort or Merge Sort, exhibits lower worst-case time complexity for nearly sorted datasets?",
+    "In which scenarios does Quick Sort outperform Merge Sort in terms of time complexity on large-scale data sets?"
+  ],
+  "base_query": "(\"Quick Sort\" OR \"Merge Sort\") AND (\"Time Complexity\")",
+  "arxiv_query": "(all:\"Quick Sort\" OR all:\"Merge Sort\") AND (all:\"Time Complexity\")"
+}

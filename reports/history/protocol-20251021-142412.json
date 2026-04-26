@@ -1,0 +1,42 @@
+{
+  "topic": "Ray tracing algorithm in computer graphics",
+  "picoc": {
+    "Population": [
+      "Graphics Researchers",
+      "Game Developers",
+      "Visualization Engineers",
+      "Rendering Engineers"
+    ],
+    "Intervention": [
+      "Ray Tracing",
+      "Path Tracing",
+      "Photon Mapping",
+      "Hybrid Rendering",
+      "Realtime Ray Tracing"
+    ],
+    "Comparison": [
+      "Rasterization",
+      "Scanline Rendering",
+      "Voxel Rendering",
+      "Deferred Shading",
+      "Tile Based Rendering"
+    ],
+    "Outcome": [
+      "Render Time",
+      "Image Quality",
+      "Memory Usage",
+      "Power Consumption",
+      "Frames Per Second"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Graphics Benchmarks",
+      "Industry Case Studies",
+      "Open Source Repositories"
+    ]
+  },
+  "rqs": [],
+  "base_query": "",
+  "arxiv_query": ""
+}

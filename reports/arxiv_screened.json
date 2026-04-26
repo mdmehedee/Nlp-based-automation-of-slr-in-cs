@@ -1,0 +1,105 @@
+{
+  "include": [
+    {
+      "Include": true,
+      "Score": 0.145,
+      "Title": "Sort Race",
+      "Authors": "Hantao Zhang, Baoluo Meng, Yiwen Liang",
+      "Year": "2016",
+      "PDF": "http://arxiv.org/pdf/1609.04471v1",
+      "Link": "http://arxiv.org/abs/1609.04471v1"
+    },
+    {
+      "Include": true,
+      "Score": 0.072,
+      "Title": "High Performance Rearrangement and Multiplication Routines for Sparse Tensor Arithmetic",
+      "Authors": "Adam P. Harrison, Dileepan Joseph",
+      "Year": "2018",
+      "PDF": "http://arxiv.org/pdf/1802.02619v1",
+      "Link": "http://arxiv.org/abs/1802.02619v1"
+    },
+    {
+      "Include": true,
+      "Score": 0.103,
+      "Title": "A Creativity Survey of Parallel Sorting Algorithm",
+      "Authors": "Tianyi Yu, Wei Li",
+      "Year": "2022",
+      "PDF": "http://arxiv.org/pdf/2202.08463v1",
+      "Link": "http://arxiv.org/abs/2202.08463v1"
+    },
+    {
+      "Include": true,
+      "Score": 0.091,
+      "Title": "A Novel Hybrid Quicksort Algorithm Vectorized using AVX-512 on Intel Skylake",
+      "Authors": "Berenger Bramas",
+      "Year": "2017",
+      "PDF": "http://arxiv.org/pdf/1704.08579v2",
+      "Link": "http://arxiv.org/abs/1704.08579v2"
+    },
+    {
+      "Include": true,
+      "Score": 0.101,
+      "Title": "A Hybrid Vectorized Merge Sort on ARM NEON",
+      "Authors": "Jincheng Zhou, Jin Zhang, Xiang Zhang, Tiaojie Xiao, Di Ma",
+      "Year": "2024",
+      "PDF": "http://arxiv.org/pdf/2409.03970v1",
+      "Link": "http://arxiv.org/abs/2409.03970v1"
+    },
+    {
+      "Include": true,
+      "Score": 0.056,
+      "Title": "A Load-Balanced Parallel and Distributed Sorting Algorithm Implemented with PGX.D",
+      "Authors": "Zahra Khatami, Sungpack Hong, Jinsoo Lee, Siegfried Depner, Hassan Chafi",
+      "Year": "2016",
+      "PDF": "http://arxiv.org/pdf/1611.00463v2",
+      "Link": "http://arxiv.org/abs/1611.00463v2"
+    }
+  ],
+  "exclude": [
+    {
+      "Include": false,
+      "Score": 0.035,
+      "Title": "Program Equivalence for Assisted Grading of Functional Programs (Extended Version)",
+      "Authors": "Joshua Clune, Vijay Ramamurthy, Ruben Martins, Umut A. Acar",
+      "Year": "2020",
+      "PDF": "http://arxiv.org/pdf/2010.08051v1",
+      "Link": "http://arxiv.org/abs/2010.08051v1"
+    },
+    {
+      "Include": false,
+      "Score": 0.026,
+      "Title": "Ancilla-free Reversible Logic Synthesis via Sorting",
+      "Authors": "Anupam Chattopadhyay, Sharif Md Khairul Hossain",
+      "Year": "2016",
+      "PDF": "http://arxiv.org/pdf/1605.05989v2",
+      "Link": "http://arxiv.org/abs/1605.05989v2"
+    },
+    {
+      "Include": false,
+      "Score": 0.017,
+      "Title": "SmartChoices: Hybridizing Programming and Machine Learning",
+      "Authors": "Victor Carbune, Thierry Coppey, Alexander Daryin, Thomas Deselaers, Nikhil Sarda",
+      "Year": "2018",
+      "PDF": "http://arxiv.org/pdf/1810.00619v3",
+      "Link": "http://arxiv.org/abs/1810.00619v3"
+    },
+    {
+      "Include": false,
+      "Score": 0.039,
+      "Title": "To Zip Through the Cost Analysis of Probabilistic Programs",
+      "Authors": "Matthias Hetzenberger, Georg Moser, Florian Zuleger",
+      "Year": "2025",
+      "PDF": "http://arxiv.org/pdf/2508.14249v1",
+      "Link": "http://arxiv.org/abs/2508.14249v1"
+    },
+    {
+      "Include": false,
+      "Score": 0.023,
+      "Title": "Efficient Portfolio Selection through Preference Aggregation with Quicksort and the Bradley--Terry Model",
+      "Authors": "Yurun Ge, Lucas B\u00f6ttcher, Tom Chou, Maria R. D'Orsogna",
+      "Year": "2025",
+      "PDF": "http://arxiv.org/pdf/2504.16093v1",
+      "Link": "http://arxiv.org/abs/2504.16093v1"
+    }
+  ]
+}

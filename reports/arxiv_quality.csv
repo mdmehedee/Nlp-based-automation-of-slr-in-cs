@@ -1,0 +1,7 @@
+Title,Year,Score,Max,Pass,PDF,Link
+Sort Race,2016,2.0,4.0,True,http://arxiv.org/pdf/1609.04471v1,http://arxiv.org/abs/1609.04471v1
+High Performance Rearrangement and Multiplication Routines for Sparse Tensor Arithmetic,2018,2.0,4.0,True,http://arxiv.org/pdf/1802.02619v1,http://arxiv.org/abs/1802.02619v1
+A Creativity Survey of Parallel Sorting Algorithm,2022,2.0,4.0,True,http://arxiv.org/pdf/2202.08463v1,http://arxiv.org/abs/2202.08463v1
+A Novel Hybrid Quicksort Algorithm Vectorized using AVX-512 on Intel Skylake,2017,2.0,4.0,True,http://arxiv.org/pdf/1704.08579v2,http://arxiv.org/abs/1704.08579v2
+A Hybrid Vectorized Merge Sort on ARM NEON,2024,2.0,4.0,True,http://arxiv.org/pdf/2409.03970v1,http://arxiv.org/abs/2409.03970v1
+A Load-Balanced Parallel and Distributed Sorting Algorithm Implemented with PGX.D,2016,2.0,4.0,True,http://arxiv.org/pdf/1611.00463v2,http://arxiv.org/abs/1611.00463v2

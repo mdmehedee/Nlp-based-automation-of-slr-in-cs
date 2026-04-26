@@ -1,0 +1,246 @@
+{
+  "topic": "Sorting Algorithms)",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Processing Systems",
+      "Embedded Systems",
+      "High Performance Computing",
+      "researcher"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "Radix Sort",
+      "Parallel Sorting",
+      "External Sorting"
+    ],
+    "Comparison": [
+      "HeapSort",
+      "Bubble Sort",
+      "Insertion Sort",
+      "TimSort",
+      "Shell Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Scalability",
+      "Throughput"
+    ],
+    "Context": [
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, MergeSort, and Radix Sort compared with HeapSort and TimSort in benchmark suites for data processing systems?",
+    "Which parallel sorting algorithms provide better scalability and throughput than Bubble Sort and Insertion Sort for embedded systems, as reported in open source repositories?",
+    "In which scenarios do external sorting techniques outperform traditional sorts in terms of stability and throughput for high\u2011performance computing, according to conference proceedings?"
+  ],
+  "base_query": "(\"Software Developers\" OR \"Algorithm Researchers\" OR \"Data Processing Systems\" OR \"Embedded Systems\" OR \"High Performance Computing\" OR \"researcher\") AND (\"QuickSort\" OR \"MergeSort\" OR \"Radix Sort\" OR \"Parallel Sorting\" OR \"External Sorting\") AND (\"HeapSort\" OR \"Bubble Sort\" OR \"Insertion Sort\" OR \"TimSort\" OR \"Shell Sort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Stability\" OR \"Scalability\" OR \"Throughput\") AND (\"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Software Developers\" OR all:\"Algorithm Researchers\" OR all:\"Data Processing Systems\" OR all:\"Embedded Systems\" OR all:\"High Performance Computing\" OR all:\"researcher\") AND (all:\"QuickSort\" OR all:\"MergeSort\" OR all:\"Radix Sort\" OR all:\"Parallel Sorting\" OR all:\"External Sorting\") AND (all:\"HeapSort\" OR all:\"Bubble Sort\" OR all:\"Insertion Sort\" OR all:\"TimSort\" OR all:\"Shell Sort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Stability\" OR all:\"Scalability\" OR all:\"Throughput\") AND (all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industry Reports\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2020-2025",
+      "last 5 years",
+      "English",
+      "preprint",
+      "conference paper",
+      "arXiv CS categories (cs.DS, cs.SE)",
+      "arXiv preprint",
+      "cited in benchmark suites",
+      "peer-reviewed conference",
+      "open access PDF"
+    ],
+    "exclude": [
+      "pre-2000",
+      "before 2010",
+      "non-English",
+      "other languages",
+      "book chapter",
+      "editorial",
+      "non-CS arXiv categories",
+      "blog post",
+      "non-peer-reviewed",
+      "non-cited"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Does the study clearly define the sorting algorithms and configurations evaluated?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the benchmark datasets and hardware platforms fully described?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the experimental methodology reproducible (e.g., code, parameters provided)?",
+        "weight": 1.0
+      },
+      {
+        "text": "Does the paper report statistical analysis or confidence intervals for performance results?",
+        "weight": 0.5
+      },
+      {
+        "text": "Is the relevance to the specified PICOC context (e.g., data processing systems) explicitly discussed?",
+        "weight": 1.0
+      }
+    ],
+    "cutoff": 2.93
+  },
+  "extraction_form": {
+    "fields": [
+      {
+        "name": "Year",
+        "type": "number",
+        "help": "Publication year"
+      },
+      {
+        "name": "Venue",
+        "type": "text",
+        "help": "Journal/Conference/ArXiv"
+      },
+      {
+        "name": "Solution type",
+        "type": "select",
+        "options": [
+          "Framework",
+          "Tool",
+          "Model",
+          "Algorithm",
+          "Dataset",
+          "Benchmark",
+          "Taxonomy",
+          "Survey",
+          "Other"
+        ]
+      },
+      {
+        "name": "Main focus",
+        "type": "long_text",
+        "help": ""
+      },
+      {
+        "name": "Category main focus",
+        "type": "select",
+        "options": [
+          "Meta-Modeling",
+          "Classification",
+          "Information Extraction",
+          "Code Analysis",
+          "Optimization",
+          "Generation",
+          "Evaluation",
+          "Visualization",
+          "Other"
+        ]
+      },
+      {
+        "name": "Their identified problem",
+        "type": "long_text",
+        "help": ""
+      },
+      {
+        "name": "Proposed solution",
+        "type": "long_text",
+        "help": ""
+      },
+      {
+        "name": "Open source",
+        "type": "boolean",
+        "help": ""
+      },
+      {
+        "name": "Research type",
+        "type": "select",
+        "options": [
+          "Theoretical",
+          "Empirical",
+          "Survey",
+          "Review"
+        ]
+      },
+      {
+        "name": "Process phases",
+        "type": "select",
+        "options": [
+          "Data collection",
+          "Preprocessing",
+          "Training",
+          "Evaluation",
+          "Deployment"
+        ]
+      },
+      {
+        "name": "NLP technology",
+        "type": "select",
+        "options": [
+          "Transformer",
+          "BERT",
+          "GPT",
+          "LSTM",
+          "GRU",
+          "CNN",
+          "SVM",
+          "Random Forest",
+          "GNN",
+          "BM25",
+          "TF-IDF",
+          "Other"
+        ]
+      },
+      {
+        "name": "Evaluation dataset",
+        "type": "text",
+        "help": ""
+      },
+      {
+        "name": "Metrics reported",
+        "type": "multiselect",
+        "options": [
+          "Accuracy",
+          "Precision",
+          "Recall",
+          "F1-score",
+          "AUC",
+          "BLEU",
+          "ROUGE",
+          "MAP",
+          "NDCG",
+          "MRR",
+          "Perplexity",
+          "RMSE",
+          "MAE",
+          "Latency",
+          "Throughput"
+        ]
+      },
+      {
+        "name": "Findings summary",
+        "type": "long_text",
+        "help": ""
+      },
+      {
+        "name": "Reported gaps/challenges",
+        "type": "long_text",
+        "help": ""
+      }
+    ]
+  }
+}

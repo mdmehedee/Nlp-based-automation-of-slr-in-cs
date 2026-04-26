@@ -1,0 +1,55 @@
+{
+  "engine": "rule_sorting",
+  "root": "Sorting Algorithms",
+  "children": [
+    {
+      "name": "Comparison Based Sorting (O(n log n))",
+      "children": [
+        {
+          "name": "Merge Sort",
+          "docs": [
+            "A Creativity Survey of Parallel Sorting Algorithm",
+            "A Hybrid Vectorized Merge Sort on ARM NEON"
+          ]
+        },
+        {
+          "name": "Quick Sort",
+          "docs": [
+            "A Novel Hybrid Quicksort Algorithm Vectorized using AVX-512 on Intel Skylake"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Non-Comparison Based Sorting (O(n))",
+      "children": []
+    },
+    {
+      "name": "Hardware/Vectorized",
+      "children": [
+        {
+          "name": "Vectorized/Parallel Sorting",
+          "docs": [
+            "A Load-Balanced Parallel and Distributed Sorting Algorithm Implemented with PGX.D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quantum/Reversible",
+      "children": []
+    },
+    {
+      "name": "Other / Related",
+      "children": [
+        {
+          "name": "Related Work",
+          "docs": [
+            "Sort Race",
+            "High Performance Rearrangement and Multiplication Routines for Sparse Tensor Arithmetic"
+          ]
+        }
+      ]
+    }
+  ]
+}

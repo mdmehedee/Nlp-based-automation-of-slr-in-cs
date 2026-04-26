@@ -1,0 +1,130 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "researcher"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "HeapSort",
+      "Radix Sort",
+      "TimSort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Selection Sort",
+      "Bubble Sort",
+      "Shell Sort",
+      "Counting Sort"
+    ],
+    "Outcome": [
+      "Time Complexity"
+    ],
+    "Context": []
+  },
+  "rqs": [
+    "What are the observed time and space complexities of QuickSort, MergeSort, HeapSort, Radix Sort, and TimSort versus Insertion, Selection, Bubble, Shell, and Counting Sort in the literature?",
+    "Which sorting algorithm among QuickSort, MergeSort, HeapSort, Radix Sort, and TimSort provides the best stability and lowest number of swaps compared to classic algorithms in studies with data engineers and CS students?",
+    "In which scenarios do QuickSort, MergeSort, HeapSort, Radix Sort, or TimSort outperform Insertion, Selection, Bubble, Shell, or Counting Sort in terms of comparisons and swaps for embedded systems?"
+  ],
+  "base_query": "(\"researcher\") AND (\"QuickSort\" OR \"MergeSort\" OR \"HeapSort\" OR \"Radix Sort\" OR \"TimSort\") AND (\"Insertion Sort\" OR \"Selection Sort\" OR \"Bubble Sort\" OR \"Shell Sort\" OR \"Counting Sort\") AND (\"Time Complexity\")",
+  "arxiv_query": "(all:\"researcher\") AND (all:\"QuickSort\" OR all:\"MergeSort\" OR all:\"HeapSort\" OR all:\"Radix Sort\" OR all:\"TimSort\") AND (all:\"Insertion Sort\" OR all:\"Selection Sort\" OR all:\"Bubble Sort\" OR all:\"Shell Sort\" OR all:\"Counting Sort\") AND (all:\"Time Complexity\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2020-2025",
+      "last 10 years",
+      "English",
+      "empirical performance evaluation",
+      "experimental comparison study",
+      "arXiv preprint",
+      "CS categories (e.g., cs.DS, cs.SE)",
+      "\u22655 citations or peer\u2011reviewed version",
+      "recognized conference/journal venue",
+      "open access full text"
+    ],
+    "exclude": [
+      "pre\u20112000",
+      "before 2010",
+      "Non\u2011English",
+      "languages other than English",
+      "pure theory without experiments",
+      "survey without original data",
+      "zero citations",
+      "non\u2011cited preprints only"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Does the study clearly describe the algorithm implementations and parameters?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are experimental setups (hardware, datasets, metrics) fully reported?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the evaluation methodology (e.g., repeated runs, statistical analysis) appropriate?",
+        "weight": 0.5
+      },
+      {
+        "text": "Are the results compared against baseline sorting algorithms listed in the PICOC?",
+        "weight": 1.0
+      },
+      {
+        "text": "Does the paper discuss limitations and applicability of the findings?",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 2.93
+  },
+  "extraction_form": {
+    "fields": [
+      {
+        "name": "Research type",
+        "type": "text",
+        "help": "Theoretical (abstract, concepts) or Empirical (data/case studies)."
+      },
+      {
+        "name": "By process phases, stages",
+        "type": "text",
+        "help": "Use lifecycle/framework stages (e.g., MAPE-K, context-aware lifecycle)."
+      },
+      {
+        "name": "By technology, framework, or platform",
+        "type": "text",
+        "help": "Technologies, frameworks, tools or platforms used."
+      },
+      {
+        "name": "By application field and/or industry domain",
+        "type": "text",
+        "help": "Primary application field/domain (e.g., manufacturing, VR)."
+      },
+      {
+        "name": "Gaps and challenges",
+        "type": "text",
+        "help": "Identified gaps/challenges and future needs."
+      },
+      {
+        "name": "Findings in research",
+        "type": "text",
+        "help": "Main findings (framework, algorithm, methodology, data model, approach)."
+      },
+      {
+        "name": "Evaluation method",
+        "type": "text",
+        "help": "Case study, experiment, survey, mathematical demonstration, indicators."
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "topic": "Define inclusion and exclusion criteria",
+  "picoc": {
+    "Population": [
+      "Software Engineers",
+      "Researchers",
+      "Developers",
+      "Data Scientists",
+      "Computer Science Students"
+    ],
+    "Intervention": [
+      "Screening Protocols",
+      "Eligibility Filters",
+      "Selection Guidelines",
+      "Automated Classifiers",
+      "Keyword Rules"
+    ],
+    "Comparison": [
+      "Manual Screening",
+      "Rule Based Filters",
+      "Random Sampling",
+      "Baseline Protocol",
+      "Expert Judgment"
+    ],
+    "Outcome": [
+      "Precision",
+      "Recall",
+      "f1score",
+      "Coverage",
+      "Efficiency"
+    ],
+    "Context": [
+      "Digital Libraries",
+      "Conference Proceedings",
+      "Journal Articles",
+      "ArXiv Preprints",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the most effective inclusion criteria for selecting software engineering studies from digital libraries?",
+    "Which screening protocols achieve higher precision and recall than manual screening when identifying computer science articles in conference proceedings?",
+    "In which scenarios do automated classifiers outperform rule\u2011based filters in terms of coverage and efficiency for selecting CS research papers?"
+  ],
+  "base_query": "",
+  "arxiv_query": "",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria": {
+    "Period": {
+      "include": [
+        "From 2015 to 2025",
+        "2010-2025",
+        "Last 10 years",
+        "Post-2000 publications"
+      ],
+      "exclude": [
+        "Before 2000",
+        "Pre-2010",
+        "Historical only"
+      ]
+    },
+    "Language": {
+      "include": [
+        "English",
+        "English full\u2011text"
+      ],
+      "exclude": [
+        "Non\u2011English",
+        "Translations only"
+      ]
+    },
+    "Type of Literature": {
+      "include": [
+        "Empirical studies",
+        "Systematic reviews",
+        "Case studies",
+        "Tool evaluations"
+      ],
+      "exclude": [
+        "Opinion pieces",
+        "Editorials",
+        "Position papers without data",
+        "Non\u2011research book chapters"
+      ]
+    },
+    "Type of Source": {
+      "include": [
+        "Digital libraries (IEEE Xplore, ACM DL)",
+        "Conference proceedings",
+        "Journal articles",
+        "ArXiv preprints"
+      ],
+      "exclude": [
+        "Blog posts",
+        "Social media",
+        "Vendor white\u2011papers",
+        "Non\u2011scholarly websites"
+      ]
+    },
+    "Impact Source": {
+      "include": [
+        "Indexed in Scopus/Web of Science",
+        "Venue with impact factor",
+        "Cited >5 times"
+      ],
+      "exclude": [
+        "Non\u2011indexed venues",
+        "Predatory journals",
+        "Low\u2011impact workshops"
+      ]
+    },
+    "Accessibility": {
+      "include": [
+        "Open access full text",
+        "Institutional subscription available",
+        "PDF downloadable"
+      ],
+      "exclude": [
+        "Pay\u2011walled without access",
+        "Abstract only",
+        "Citation only"
+      ]
+    },
+    "Relevance to RQs": {
+      "include": [
+        "Addresses inclusion criteria for CS studies",
+        "Evaluates screening protocols",
+        "Compares automated vs manual selection",
+        "Reports precision/recall/F1"
+      ],
+      "exclude": [
+        "Irrelevant domain (e.g., biology)",
+        "Focus on unrelated topics",
+        "No evaluation metrics reported"
+      ]
+    }
+  }
+}

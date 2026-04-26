@@ -1,0 +1,80 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Engineers",
+      "Computer Science Students",
+      "Embedded Systems"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "Merge Sort",
+      "Heap Sort",
+      "Radix Sort",
+      "Tim Sort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Bubble Sort",
+      "Selection Sort",
+      "Shell Sort",
+      "Counting Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Cache Efficiency",
+      "Parallel Speedup"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, Merge Sort, Heap Sort, Radix Sort, and Tim Sort compared with Insertion, Bubble, Selection, Shell, and Counting Sort in academic journals and conference proceedings?",
+    "Which of QuickSort, Merge Sort, Heap Sort, Radix Sort, or Tim Sort provides the best cache efficiency and parallel speedup for data engineers and software developers in benchmark suites and open\u2011source repositories?",
+    "In which contexts (academic journals, conference proceedings, benchmark suites, industry reports) do algorithm researchers and data engineers prefer stable over unstable sorting algorithms for large datasets?"
+  ],
+  "base_query": "",
+  "arxiv_query": "",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria": {
+    "Period": {
+      "include": "",
+      "exclude": ""
+    },
+    "Language": {
+      "include": "",
+      "exclude": ""
+    },
+    "Type of Literature": {
+      "include": "",
+      "exclude": ""
+    },
+    "Type of Source": {
+      "include": "",
+      "exclude": ""
+    },
+    "Impact Source": {
+      "include": "",
+      "exclude": ""
+    },
+    "Accessibility": {
+      "include": "",
+      "exclude": ""
+    },
+    "Relevance to RQs": {
+      "include": "",
+      "exclude": ""
+    }
+  }
+}

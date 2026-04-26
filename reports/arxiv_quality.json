@@ -1,0 +1,256 @@
+{
+  "results": [
+    {
+      "paper": {
+        "Include": true,
+        "Score": 0.145,
+        "Title": "Sort Race",
+        "Authors": "Hantao Zhang, Baoluo Meng, Yiwen Liang",
+        "Year": "2016",
+        "PDF": "http://arxiv.org/pdf/1609.04471v1",
+        "Link": "http://arxiv.org/abs/1609.04471v1"
+      },
+      "score": 2.0,
+      "max": 4.0,
+      "pass": true,
+      "cutoff": 1.6,
+      "answers": {
+        "Does the study explicitly state its research objectives and hypotheses?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Are the sorting algorithm implementations and parameter settings fully described?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Is the evaluation performed on publicly available benchmark datasets or code?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 0.5
+        },
+        "Does the paper report statistical analysis or multiple runs to support performance claims?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Is the study context (e.g., journal, conference, industry report) clearly identified?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 0.5
+        }
+      }
+    },
+    {
+      "paper": {
+        "Include": true,
+        "Score": 0.072,
+        "Title": "High Performance Rearrangement and Multiplication Routines for Sparse Tensor Arithmetic",
+        "Authors": "Adam P. Harrison, Dileepan Joseph",
+        "Year": "2018",
+        "PDF": "http://arxiv.org/pdf/1802.02619v1",
+        "Link": "http://arxiv.org/abs/1802.02619v1"
+      },
+      "score": 2.0,
+      "max": 4.0,
+      "pass": true,
+      "cutoff": 1.6,
+      "answers": {
+        "Does the study explicitly state its research objectives and hypotheses?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Are the sorting algorithm implementations and parameter settings fully described?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Is the evaluation performed on publicly available benchmark datasets or code?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 0.5
+        },
+        "Does the paper report statistical analysis or multiple runs to support performance claims?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Is the study context (e.g., journal, conference, industry report) clearly identified?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 0.5
+        }
+      }
+    },
+    {
+      "paper": {
+        "Include": true,
+        "Score": 0.103,
+        "Title": "A Creativity Survey of Parallel Sorting Algorithm",
+        "Authors": "Tianyi Yu, Wei Li",
+        "Year": "2022",
+        "PDF": "http://arxiv.org/pdf/2202.08463v1",
+        "Link": "http://arxiv.org/abs/2202.08463v1"
+      },
+      "score": 2.0,
+      "max": 4.0,
+      "pass": true,
+      "cutoff": 1.6,
+      "answers": {
+        "Does the study explicitly state its research objectives and hypotheses?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Are the sorting algorithm implementations and parameter settings fully described?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Is the evaluation performed on publicly available benchmark datasets or code?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 0.5
+        },
+        "Does the paper report statistical analysis or multiple runs to support performance claims?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Is the study context (e.g., journal, conference, industry report) clearly identified?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 0.5
+        }
+      }
+    },
+    {
+      "paper": {
+        "Include": true,
+        "Score": 0.091,
+        "Title": "A Novel Hybrid Quicksort Algorithm Vectorized using AVX-512 on Intel Skylake",
+        "Authors": "Berenger Bramas",
+        "Year": "2017",
+        "PDF": "http://arxiv.org/pdf/1704.08579v2",
+        "Link": "http://arxiv.org/abs/1704.08579v2"
+      },
+      "score": 2.0,
+      "max": 4.0,
+      "pass": true,
+      "cutoff": 1.6,
+      "answers": {
+        "Does the study explicitly state its research objectives and hypotheses?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Are the sorting algorithm implementations and parameter settings fully described?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Is the evaluation performed on publicly available benchmark datasets or code?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 0.5
+        },
+        "Does the paper report statistical analysis or multiple runs to support performance claims?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Is the study context (e.g., journal, conference, industry report) clearly identified?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 0.5
+        }
+      }
+    },
+    {
+      "paper": {
+        "Include": true,
+        "Score": 0.101,
+        "Title": "A Hybrid Vectorized Merge Sort on ARM NEON",
+        "Authors": "Jincheng Zhou, Jin Zhang, Xiang Zhang, Tiaojie Xiao, Di Ma",
+        "Year": "2024",
+        "PDF": "http://arxiv.org/pdf/2409.03970v1",
+        "Link": "http://arxiv.org/abs/2409.03970v1"
+      },
+      "score": 2.0,
+      "max": 4.0,
+      "pass": true,
+      "cutoff": 1.6,
+      "answers": {
+        "Does the study explicitly state its research objectives and hypotheses?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Are the sorting algorithm implementations and parameter settings fully described?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Is the evaluation performed on publicly available benchmark datasets or code?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 0.5
+        },
+        "Does the paper report statistical analysis or multiple runs to support performance claims?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Is the study context (e.g., journal, conference, industry report) clearly identified?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 0.5
+        }
+      }
+    },
+    {
+      "paper": {
+        "Include": true,
+        "Score": 0.056,
+        "Title": "A Load-Balanced Parallel and Distributed Sorting Algorithm Implemented with PGX.D",
+        "Authors": "Zahra Khatami, Sungpack Hong, Jinsoo Lee, Siegfried Depner, Hassan Chafi",
+        "Year": "2016",
+        "PDF": "http://arxiv.org/pdf/1611.00463v2",
+        "Link": "http://arxiv.org/abs/1611.00463v2"
+      },
+      "score": 2.0,
+      "max": 4.0,
+      "pass": true,
+      "cutoff": 1.6,
+      "answers": {
+        "Does the study explicitly state its research objectives and hypotheses?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Are the sorting algorithm implementations and parameter settings fully described?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Is the evaluation performed on publicly available benchmark datasets or code?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 0.5
+        },
+        "Does the paper report statistical analysis or multiple runs to support performance claims?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 1.0
+        },
+        "Is the study context (e.g., journal, conference, industry report) clearly identified?": {
+          "answer": "Partial",
+          "value": 0.5,
+          "weight": 0.5
+        }
+      }
+    }
+  ]
+}

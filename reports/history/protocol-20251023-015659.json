@@ -1,0 +1,50 @@
+{
+  "topic": "Define inclusion and exclusion criteria",
+  "picoc": {
+    "Population": [
+      "Software Engineers",
+      "Researchers",
+      "Developers",
+      "Data Scientists",
+      "System Architects"
+    ],
+    "Intervention": [
+      "Inclusion Criteria",
+      "Exclusion Criteria",
+      "Screening Protocol",
+      "Selection Guideline",
+      "Filtering Tool"
+    ],
+    "Comparison": [
+      "Ad Hoc Selection",
+      "Expert Judgment",
+      "Automated Filtering",
+      "Rule Based Screening",
+      "No Criteria"
+    ],
+    "Outcome": [
+      "Recall",
+      "Precision",
+      "Coverage",
+      "Effort Reduction",
+      "Bias Mitigation"
+    ],
+    "Context": [
+      "Digital Libraries",
+      "Conference Proceedings",
+      "Journal Articles",
+      "Preprint Servers",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the most effective inclusion criteria for selecting software engineering studies from digital libraries and conference proceedings?",
+    "Which screening protocols or filtering tools achieve higher recall and precision than ad\u2011hoc or expert\u2011judgment selection in computer science literature?",
+    "In which contexts (e.g., journals, preprint servers, industry reports) do rule\u2011based screening methods reduce effort while mitigating selection bias?"
+  ],
+  "base_query": "",
+  "arxiv_query": "",
+  "libraries": [
+    "arxiv"
+  ]
+}

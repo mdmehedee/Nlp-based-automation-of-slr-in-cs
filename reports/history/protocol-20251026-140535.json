@@ -1,0 +1,108 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Processing Systems",
+      "Embedded Devices",
+      "High Performance Computing",
+      "researcher"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "Merge Sort",
+      "Heap Sort",
+      "Radix Sort",
+      "Parallel Sorting"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Bubble Sort",
+      "Selection Sort",
+      "Shell Sort",
+      "Tim Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Scalability",
+      "Throughput"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, Merge Sort, Heap Sort, Radix Sort, and Parallel Sorting versus Insertion, Bubble, Selection, Shell, and Tim Sorts in academic journals and conference proceedings?",
+    "Which sorting algorithms (QuickSort, Merge Sort, Heap Sort, Radix Sort, Parallel Sorting) demonstrate stability and scalability on high\u2011performance computing and embedded device contexts?",
+    "In which benchmark suites or open\u2011source repositories do parallel sorting methods outperform traditional sorts in throughput for data processing systems?"
+  ],
+  "base_query": "(\"Software Developers\" OR \"Algorithm Researchers\" OR \"Data Processing Systems\" OR \"Embedded Devices\" OR \"High Performance Computing\" OR \"researcher\") AND (\"QuickSort\" OR \"Merge Sort\" OR \"Heap Sort\" OR \"Radix Sort\" OR \"Parallel Sorting\") AND (\"Insertion Sort\" OR \"Bubble Sort\" OR \"Selection Sort\" OR \"Shell Sort\" OR \"Tim Sort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Stability\" OR \"Scalability\" OR \"Throughput\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Software Developers\" OR all:\"Algorithm Researchers\" OR all:\"Data Processing Systems\" OR all:\"Embedded Devices\" OR all:\"High Performance Computing\" OR all:\"researcher\") AND (all:\"QuickSort\" OR all:\"Merge Sort\" OR all:\"Heap Sort\" OR all:\"Radix Sort\" OR all:\"Parallel Sorting\") AND (all:\"Insertion Sort\" OR all:\"Bubble Sort\" OR all:\"Selection Sort\" OR all:\"Shell Sort\" OR all:\"Tim Sort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Stability\" OR all:\"Scalability\" OR all:\"Throughput\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industry Reports\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2000-2025",
+      "Last 10 years",
+      "Post\u20112005 publications",
+      "English",
+      "English abstracts",
+      "English full text",
+      "Peer\u2011reviewed conference papers",
+      "Journal articles",
+      "arXiv preprints",
+      "arXiv CS categories (cs.DS, cs.SE, cs.CV)"
+    ],
+    "exclude": [
+      "Before 1990",
+      "1990-1999",
+      "Pre\u20112000 works",
+      "Non\u2011English",
+      "Languages other than English",
+      "Translations only",
+      "Books",
+      "Theses/dissertations",
+      "Magazine articles",
+      "Non\u2011CS arXiv categories"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Does the study clearly describe the algorithm implementations and experimental setup?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the performance metrics (time, space, throughput) defined and measured consistently?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the source of data or benchmark suite used for evaluation explicitly cited?",
+        "weight": 0.5
+      },
+      {
+        "text": "Does the paper discuss limitations and applicability of the sorting algorithm to the stated context?",
+        "weight": 0.5
+      },
+      {
+        "text": "Are the results reproducible through provided code, parameters, or detailed pseudo\u2011code?",
+        "weight": 1.0
+      }
+    ],
+    "cutoff": 2.6
+  }
+}

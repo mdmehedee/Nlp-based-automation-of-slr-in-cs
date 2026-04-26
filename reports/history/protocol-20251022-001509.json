@@ -1,0 +1,47 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Processing Systems",
+      "Embedded Systems",
+      "Database Engines"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "HeapSort",
+      "Radix Sort",
+      "TimSort"
+    ],
+    "Comparison": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Selection Sort",
+      "Shell Sort",
+      "Naive Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Scalability",
+      "Cache Efficiency"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, MergeSort, HeapSort, Radix Sort, and TimSort compared to Bubble, Insertion, Selection, Shell, and Naive Sorts?",
+    "Which of QuickSort, MergeSort, HeapSort, Radix Sort, and TimSort show higher stability and cache efficiency in data processing and embedded systems?",
+    "In which contexts (academic journals, conference papers, open\u2011source repositories) are advanced sorts like TimSort or Radix Sort preferred over classic sorts for scalability?"
+  ],
+  "base_query": "",
+  "arxiv_query": ""
+}

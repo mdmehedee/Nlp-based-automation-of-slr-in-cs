@@ -1,0 +1,49 @@
+{
+  "topic": "NLP-Based Automation of Systematic Literature Reviews in Computer Science",
+  "picoc": {
+    "Population": [
+      "Computer Science Researchers",
+      "Software Engineers",
+      "Graduate Students",
+      "Research Labs",
+      "Industry Practitioners"
+    ],
+    "Intervention": [
+      "NLP Automation Tools",
+      "Transformer Extractors",
+      "Semantic Parsing Models",
+      "Deep Learning Classifiers",
+      "Ontology Workflows"
+    ],
+    "Comparison": [
+      "Manual Screening",
+      "Keyword Search",
+      "Rule Based Systems",
+      "Traditional IR Methods",
+      "Baseline Pipelines"
+    ],
+    "Outcome": [
+      "Precision",
+      "Recall",
+      "f1 score",
+      "Time Efficiency",
+      "Scalability",
+      "Usability"
+    ],
+    "Context": [
+      "Digital Libraries",
+      "Conference Proceedings",
+      "ArXiv Preprints",
+      "IEEE Xplore",
+      "ACM Digital Library",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What is the impact of NLP automation tools on precision, recall, and f1 score compared to manual screening in computer science systematic reviews?",
+    "Which transformer-based extractors provide the best time efficiency and scalability when processing CS literature from digital libraries and preprint servers?",
+    "In which scenarios do ontology-driven NLP workflows outperform keyword search and rule\u2011based systems for usability in CS research labs?"
+  ],
+  "base_query": "(\"Computer Science Researchers\" OR \"Software Engineers\" OR \"Graduate Students\" OR \"Research Labs\" OR \"Industry Practitioners\") AND (\"NLP Automation Tools\" OR \"Transformer Extractors\" OR \"Semantic Parsing Models\" OR \"Deep Learning Classifiers\" OR \"Ontology Workflows\") AND (\"Manual Screening\" OR \"Keyword Search\" OR \"Rule Based Systems\" OR \"Traditional IR Methods\" OR \"Baseline Pipelines\") AND (\"Precision\" OR \"Recall\" OR \"f1 score\" OR \"Time Efficiency\" OR \"Scalability\" OR \"Usability\") AND (\"Digital Libraries\" OR \"Conference Proceedings\" OR \"ArXiv Preprints\" OR \"IEEE Xplore\" OR \"ACM Digital Library\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Computer Science Researchers\" OR all:\"Software Engineers\" OR all:\"Graduate Students\" OR all:\"Research Labs\" OR all:\"Industry Practitioners\") AND (all:\"NLP Automation Tools\" OR all:\"Transformer Extractors\" OR all:\"Semantic Parsing Models\" OR all:\"Deep Learning Classifiers\" OR all:\"Ontology Workflows\") AND (all:\"Manual Screening\" OR all:\"Keyword Search\" OR all:\"Rule Based Systems\" OR all:\"Traditional IR Methods\" OR all:\"Baseline Pipelines\") AND (all:\"Precision\" OR all:\"Recall\" OR all:\"f1 score\" OR all:\"Time Efficiency\" OR all:\"Scalability\" OR all:\"Usability\") AND (all:\"Digital Libraries\" OR all:\"Conference Proceedings\" OR all:\"ArXiv Preprints\" OR all:\"IEEE Xplore\" OR all:\"ACM Digital Library\" OR all:\"Industry Reports\")"
+}

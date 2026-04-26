@@ -1,0 +1,146 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Engineers",
+      "Computer Science Students",
+      "Embedded Systems",
+      "researcher"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "HeapSort",
+      "Radix Sort",
+      "Bucket Sort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Selection Sort",
+      "Bubble Sort",
+      "Shell Sort",
+      "TimSort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Comparisons",
+      "Swaps"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, MergeSort, HeapSort, Radix Sort, and Bucket Sort compared to Insertion, Selection, Bubble, Shell, and TimSort in academic journals?",
+    "Which sorting algorithm among QuickSort, MergeSort, HeapSort, Radix Sort, and Bucket Sort provides the best stability for data engineers in open source repositories?",
+    "In which contexts (academic journals, conference proceedings, open source repositories, industry reports) are advanced sorting algorithms preferred over classic ones for software developers?"
+  ],
+  "base_query": "(\"Software Developers\" OR \"Algorithm Researchers\" OR \"Data Engineers\" OR \"Computer Science Students\" OR \"Embedded Systems\" OR \"researcher\") AND (\"QuickSort\" OR \"MergeSort\" OR \"HeapSort\" OR \"Radix Sort\" OR \"Bucket Sort\") AND (\"Insertion Sort\" OR \"Selection Sort\" OR \"Bubble Sort\" OR \"Shell Sort\" OR \"TimSort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Stability\" OR \"Comparisons\" OR \"Swaps\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Software Developers\" OR all:\"Algorithm Researchers\" OR all:\"Data Engineers\" OR all:\"Computer Science Students\" OR all:\"Embedded Systems\" OR all:\"researcher\") AND (all:\"QuickSort\" OR all:\"MergeSort\" OR all:\"HeapSort\" OR all:\"Radix Sort\" OR all:\"Bucket Sort\") AND (all:\"Insertion Sort\" OR all:\"Selection Sort\" OR all:\"Bubble Sort\" OR all:\"Shell Sort\" OR all:\"TimSort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Stability\" OR all:\"Comparisons\" OR all:\"Swaps\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Industry Reports\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2020-2025",
+      "Last 5 years",
+      "English",
+      "Research articles",
+      "Preprints",
+      "arXiv CS categories (cs.DS, cs.SE)",
+      "Conference papers indexed in arXiv",
+      "Citations \u2265 5",
+      "Highly downloaded preprints",
+      "Open access full text"
+    ],
+    "exclude": [
+      "Before 2000",
+      "Older than 10 years",
+      "Non-English",
+      "Languages other than English",
+      "Editorials",
+      "Book chapters",
+      "Non\u2011CS arXiv categories",
+      "Blog posts",
+      "Uncited works",
+      "Low download count"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Does the study explicitly state its research objectives and questions?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the algorithm implementations and experimental setups described in sufficient detail to replicate?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the evaluation methodology (datasets, metrics) appropriate for assessing time, space, and stability?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the sources of data (e.g., benchmarks, code repositories) cited and accessible?",
+        "weight": 0.5
+      },
+      {
+        "text": "Does the paper discuss limitations and threats to validity of its findings?",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 2.6
+  },
+  "extraction_form": {
+    "fields": [
+      {
+        "name": "Research type",
+        "type": "text",
+        "help": "Theoretical (abstract, concepts) or Empirical (data/case studies)."
+      },
+      {
+        "name": "By process phases, stages",
+        "type": "text",
+        "help": "Use lifecycle/framework stages (e.g., MAPE-K, context-aware lifecycle)."
+      },
+      {
+        "name": "By technology, framework, or platform",
+        "type": "text",
+        "help": "Technologies, frameworks, tools or platforms used."
+      },
+      {
+        "name": "By application field and/or industry domain",
+        "type": "text",
+        "help": "Primary application field/domain (e.g., manufacturing, VR)."
+      },
+      {
+        "name": "Gaps and challenges",
+        "type": "text",
+        "help": "Identified gaps/challenges and future needs."
+      },
+      {
+        "name": "Findings in research",
+        "type": "text",
+        "help": "Main findings (framework, algorithm, methodology, data model, approach)."
+      },
+      {
+        "name": "Evaluation method",
+        "type": "text",
+        "help": "Case study, experiment, survey, mathematical demonstration, indicators."
+      }
+    ]
+  }
+}

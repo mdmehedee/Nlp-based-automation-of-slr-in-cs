@@ -1,0 +1,77 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Processing Systems",
+      "Embedded Systems",
+      "High Performance Computing"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "Merge Sort",
+      "Heap Sort",
+      "Radix Sort",
+      "Tim Sort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Bubble Sort",
+      "Selection Sort",
+      "Shell Sort",
+      "Naive Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Cache Efficiency",
+      "Throughput"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "Which sorting algorithms (QuickSort, Merge Sort, Heap Sort, Radix Sort, Tim Sort) demonstrate superior time and space complexity than classic sorts in scholarly and industry publications?",
+    "In which contexts (academic journals, conferences, open\u2011source repos, benchmark suites, industry reports) are stability and cache efficiency of advanced sorting algorithms evaluated?",
+    "What throughput and cache efficiency differences are reported for advanced versus classic sorting algorithms on high\u2011performance and embedded systems?"
+  ],
+  "base_query": "",
+  "arxiv_query": "",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2015-2025",
+      "last 10 years",
+      "English",
+      "English abstract",
+      "conference paper",
+      "journal article",
+      "preprint",
+      "arXiv cs.DS",
+      "arXiv cs.CR",
+      "cited in subsequent work"
+    ],
+    "exclude": [
+      "pre-2015",
+      "older than 10 years",
+      "non-English",
+      "languages other than English",
+      "book chapter",
+      "thesis",
+      "technical report",
+      "arXiv physics",
+      "arXiv unrelated categories",
+      "no citations"
+    ]
+  }
+}

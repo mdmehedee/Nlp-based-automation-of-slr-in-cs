@@ -1,0 +1,107 @@
+{
+  "topic": "NLP-Based Automation of Systematic Literature Reviews in Computer Science",
+  "picoc": {
+    "Population": [
+      "Computer Science Researchers",
+      "Software Engineers",
+      "Systematic Review Authors",
+      "Graduate Students",
+      "researvcher"
+    ],
+    "Intervention": [
+      "NLP Automation",
+      "Transformer Models",
+      "BERT Classifier",
+      "Information Extraction",
+      "Semantic Search"
+    ],
+    "Comparison": [
+      "Manual Screening",
+      "Keyword Search",
+      "Rule Based Methods",
+      "Traditional IR",
+      "Baseline Heuristics"
+    ],
+    "Outcome": [
+      "Precision",
+      "Recall",
+      "f1score",
+      "Processing Time",
+      "Scalability"
+    ],
+    "Context": [
+      "Digital Libraries",
+      "Conference Proceedings",
+      "ArXiv Preprints",
+      "IEEE Xplore",
+      "ACM Digital Library"
+    ]
+  },
+  "rqs": [
+    "What NLP automation techniques (e.g., BERT classifiers, transformer models) improve precision and recall of study selection compared to manual screening in CS systematic reviews?",
+    "Which information extraction and semantic search methods most effectively reduce processing time while maintaining scalability for CS literature across digital libraries?",
+    "In which contexts (e.g., conference proceedings, arXiv, IEEE Xplore) does NLP-based automation achieve higher f1\u2011score than traditional keyword search for CS systematic reviews?"
+  ],
+  "base_query": "(\"Computer Science Researchers\" OR \"Software Engineers\" OR \"Systematic Review Authors\" OR \"Graduate Students\" OR \"researvcher\") AND (\"NLP Automation\" OR \"Transformer Models\" OR \"BERT Classifier\" OR \"Information Extraction\" OR \"Semantic Search\") AND (\"Manual Screening\" OR \"Keyword Search\" OR \"Rule Based Methods\" OR \"Traditional IR\" OR \"Baseline Heuristics\") AND (\"Precision\" OR \"Recall\" OR \"f1score\" OR \"Processing Time\" OR \"Scalability\") AND (\"Digital Libraries\" OR \"Conference Proceedings\" OR \"ArXiv Preprints\" OR \"IEEE Xplore\" OR \"ACM Digital Library\")",
+  "arxiv_query": "(all:\"Computer Science Researchers\" OR all:\"Software Engineers\" OR all:\"Systematic Review Authors\" OR all:\"Graduate Students\" OR all:\"researvcher\") AND (all:\"NLP Automation\" OR all:\"Transformer Models\" OR all:\"BERT Classifier\" OR all:\"Information Extraction\" OR all:\"Semantic Search\") AND (all:\"Manual Screening\" OR all:\"Keyword Search\" OR all:\"Rule Based Methods\" OR all:\"Traditional IR\" OR all:\"Baseline Heuristics\") AND (all:\"Precision\" OR all:\"Recall\" OR all:\"f1score\" OR all:\"Processing Time\" OR all:\"Scalability\") AND (all:\"Digital Libraries\" OR all:\"Conference Proceedings\" OR all:\"ArXiv Preprints\" OR all:\"IEEE Xplore\" OR all:\"ACM Digital Library\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2020-2025",
+      "last 5 years",
+      "English",
+      "peer\u2011reviewed conference papers",
+      "journal articles",
+      "arXiv CS categories (cs.*)",
+      "preprints with DOI",
+      "high citation count (>10)",
+      "published in top CS venues",
+      "open access full text"
+    ],
+    "exclude": [
+      "pre-2015",
+      "before 2010",
+      "non-English",
+      "languages other than English",
+      "editorials",
+      "non\u2011research articles",
+      "non\u2011CS arXiv categories",
+      "blog posts",
+      "low citation (<5)",
+      "non\u2011indexed venues"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Is the study\u2019s objective and scope explicitly defined?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the data sources (e.g., digital libraries) and selection criteria fully described?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the NLP method implementation reproducible (e.g., code or model details provided)?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are evaluation metrics (precision, recall, F1) reported with statistical significance?",
+        "weight": 0.5
+      },
+      {
+        "text": "Does the study discuss limitations and applicability to different CS domains?",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 2.6
+  }
+}

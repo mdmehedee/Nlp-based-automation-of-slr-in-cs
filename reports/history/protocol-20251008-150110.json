@@ -1,0 +1,47 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Engineers",
+      "Computer Science Students",
+      "Embedded Systems"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "Merge Sort",
+      "Heap Sort",
+      "Radix Sort",
+      "Tim Sort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Selection Sort",
+      "Bubble Sort",
+      "Shell Sort",
+      "Counting Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Comparisons",
+      "Swaps"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, Merge Sort, Heap Sort, Radix Sort, and Tim Sort compared to classic sorts in academic and industry contexts?",
+    "Which modern sorting algorithm (QuickSort, Merge Sort, Heap Sort, Radix Sort, Tim Sort) offers the best stability and fewest swaps for data engineers in benchmark suites?",
+    "In which scenarios do modern sorts outperform traditional sorts in comparisons and swaps for software developers and CS students?"
+  ],
+  "base_query": "(\"Software Developers\" OR \"Algorithm Researchers\" OR \"Data Engineers\" OR \"Computer Science Students\" OR \"Embedded Systems\") AND (\"QuickSort\" OR \"Merge Sort\" OR \"Heap Sort\" OR \"Radix Sort\" OR \"Tim Sort\") AND (\"Insertion Sort\" OR \"Selection Sort\" OR \"Bubble Sort\" OR \"Shell Sort\" OR \"Counting Sort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Stability\" OR \"Comparisons\" OR \"Swaps\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Software Developers\" OR all:\"Algorithm Researchers\" OR all:\"Data Engineers\" OR all:\"Computer Science Students\" OR all:\"Embedded Systems\") AND (all:\"QuickSort\" OR all:\"Merge Sort\" OR all:\"Heap Sort\" OR all:\"Radix Sort\" OR all:\"Tim Sort\") AND (all:\"Insertion Sort\" OR all:\"Selection Sort\" OR all:\"Bubble Sort\" OR all:\"Shell Sort\" OR all:\"Counting Sort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Stability\" OR all:\"Comparisons\" OR all:\"Swaps\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industry Reports\")"
+}

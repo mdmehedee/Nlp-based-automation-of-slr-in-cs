@@ -1,0 +1,76 @@
+{
+  "topic": "Sorting Algorithm",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Engineers",
+      "Computer Science Students"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "HeapSort",
+      "Radix Sort",
+      "Bucket Sort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Selection Sort",
+      "Bubble Sort",
+      "Shell Sort",
+      "TimSort"
+    ],
+    "Outcome": [
+      "time complexity",
+      "space complexity",
+      "stability",
+      "comparisons",
+      "swaps"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industrial Applications"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, MergeSort, HeapSort, Radix Sort, and Bucket Sort compared to classic sorts in academic journals and conference proceedings?",
+    "Which of QuickSort, MergeSort, HeapSort, Radix Sort, or Bucket Sort offers the best stability and fewest swaps in open\u2011source benchmark suites?",
+    "In which industrial application scenarios do advanced sorts (QuickSort, MergeSort, HeapSort, Radix Sort, Bucket Sort) outperform traditional sorts regarding comparisons and runtime?"
+  ],
+  "base_query": "(\"Software Developers\" OR \"Algorithm Researchers\" OR \"Data Engineers\" OR \"Computer Science Students\") AND (\"QuickSort\" OR \"MergeSort\" OR \"HeapSort\" OR \"Radix Sort\" OR \"Bucket Sort\") AND (\"Insertion Sort\" OR \"Selection Sort\" OR \"Bubble Sort\" OR \"Shell Sort\" OR \"TimSort\") AND (\"time complexity\" OR \"space complexity\" OR \"stability\" OR \"comparisons\" OR \"swaps\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industrial Applications\")",
+  "arxiv_query": "(all:\"Software Developers\" OR all:\"Algorithm Researchers\" OR all:\"Data Engineers\" OR all:\"Computer Science Students\") AND (all:\"QuickSort\" OR all:\"MergeSort\" OR all:\"HeapSort\" OR all:\"Radix Sort\" OR all:\"Bucket Sort\") AND (all:\"Insertion Sort\" OR all:\"Selection Sort\" OR all:\"Bubble Sort\" OR all:\"Shell Sort\" OR all:\"TimSort\") AND (all:\"time complexity\" OR all:\"space complexity\" OR all:\"stability\" OR all:\"comparisons\" OR all:\"swaps\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industrial Applications\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "Publications 2020-2025",
+      "Last 5 years",
+      "English language",
+      "English abstracts",
+      "Empirical algorithm study",
+      "Theoretical complexity analysis",
+      "arXiv preprint",
+      "CS categories (cs.DS, cs.FL)",
+      "Citations \u22655",
+      "Benchmark suite evaluation"
+    ],
+    "exclude": [
+      "Pre-2000 publications",
+      "Older than 10 years",
+      "Non-English language",
+      "Other languages",
+      "Opinion editorial",
+      "Non\u2011research commentary",
+      "Physics arXiv category",
+      "Non\u2011CS subject area",
+      "No citation data",
+      "Unreferenced work"
+    ]
+  }
+}

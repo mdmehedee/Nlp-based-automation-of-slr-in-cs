@@ -1,0 +1,54 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Algorithm Researchers",
+      "Software Developers",
+      "Database Systems",
+      "Embedded Systems",
+      "High Performance Computing",
+      "Educational Platforms",
+      "Data Engineers"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "HeapSort",
+      "RadixSort",
+      "TimSort",
+      "BucketSort",
+      "CountingSort"
+    ],
+    "Comparison": [
+      "InsertionSort",
+      "SelectionSort",
+      "BubbleSort",
+      "ShellSort",
+      "BitonicSort",
+      "Odd Even Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Comparisons",
+      "Swaps",
+      "Latency"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industrial Case Studies",
+      "Online Tutorials"
+    ]
+  },
+  "rqs": [
+    "What are the reported time and space complexities of QuickSort, MergeSort, HeapSort, RadixSort, TimSort, BucketSort, and CountingSort in academic and conference publications?",
+    "Which of the listed advanced sorting algorithms demonstrate stability and lower comparison or swap counts than InsertionSort, SelectionSort, BubbleSort, ShellSort, BitonicSort, and Odd\u2011Even Sort?",
+    "In which application domains (e.g., databases, embedded systems, HPC, educational platforms) are advanced sorting algorithms preferred over classic sorts, and what factors influence the choice?"
+  ],
+  "base_query": "(\"Algorithm Researchers\" OR \"Software Developers\" OR \"Database Systems\" OR \"Embedded Systems\" OR \"High Performance Computing\" OR \"Educational Platforms\" OR \"Data Engineers\") AND (\"QuickSort\" OR \"MergeSort\" OR \"HeapSort\" OR \"RadixSort\" OR \"TimSort\" OR \"BucketSort\" OR \"CountingSort\") AND (\"InsertionSort\" OR \"SelectionSort\" OR \"BubbleSort\" OR \"ShellSort\" OR \"BitonicSort\" OR \"Odd Even Sort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Stability\" OR \"Comparisons\" OR \"Swaps\" OR \"Latency\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industrial Case Studies\" OR \"Online Tutorials\")",
+  "arxiv_query": "(all:\"Algorithm Researchers\" OR all:\"Software Developers\" OR all:\"Database Systems\" OR all:\"Embedded Systems\" OR all:\"High Performance Computing\" OR all:\"Educational Platforms\" OR all:\"Data Engineers\") AND (all:\"QuickSort\" OR all:\"MergeSort\" OR all:\"HeapSort\" OR all:\"RadixSort\" OR all:\"TimSort\" OR all:\"BucketSort\" OR all:\"CountingSort\") AND (all:\"InsertionSort\" OR all:\"SelectionSort\" OR all:\"BubbleSort\" OR all:\"ShellSort\" OR all:\"BitonicSort\" OR all:\"Odd Even Sort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Stability\" OR all:\"Comparisons\" OR all:\"Swaps\" OR all:\"Latency\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industrial Case Studies\" OR all:\"Online Tutorials\")"
+}

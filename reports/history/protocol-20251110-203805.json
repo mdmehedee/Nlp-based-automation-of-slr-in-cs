@@ -1,0 +1,147 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Computer Science Students",
+      "Algorithm Researchers",
+      "Data Engineers",
+      "Embedded Systems",
+      "researcher"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "Radix Sort",
+      "Parallel Sorting",
+      "GPU Sorting"
+    ],
+    "Comparison": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Heap Sort",
+      "Selection Sort",
+      "Shell Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Runtime",
+      "Throughput",
+      "Scalability"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, MergeSort, and Radix Sort compared to Bubble Sort, Insertion Sort, and Heap Sort in academic journal studies?",
+    "Which parallel or GPU sorting algorithms provide the best scalability and throughput for data engineers using benchmark suites versus industry reports?",
+    "In which contexts (academic journals, conference proceedings, open source repositories) are QuickSort and MergeSort most frequently evaluated for runtime performance against classic sorts?"
+  ],
+  "base_query": "(\"Software Developers\" OR \"Computer Science Students\" OR \"Algorithm Researchers\" OR \"Data Engineers\" OR \"Embedded Systems\" OR \"researcher\") AND (\"QuickSort\" OR \"MergeSort\" OR \"Radix Sort\" OR \"Parallel Sorting\" OR \"GPU Sorting\") AND (\"Bubble Sort\" OR \"Insertion Sort\" OR \"Heap Sort\" OR \"Selection Sort\" OR \"Shell Sort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Runtime\" OR \"Throughput\" OR \"Scalability\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Software Developers\" OR all:\"Computer Science Students\" OR all:\"Algorithm Researchers\" OR all:\"Data Engineers\" OR all:\"Embedded Systems\" OR all:\"researcher\") AND (all:\"QuickSort\" OR all:\"MergeSort\" OR all:\"Radix Sort\" OR all:\"Parallel Sorting\" OR all:\"GPU Sorting\") AND (all:\"Bubble Sort\" OR all:\"Insertion Sort\" OR all:\"Heap Sort\" OR all:\"Selection Sort\" OR all:\"Shell Sort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Runtime\" OR all:\"Throughput\" OR all:\"Scalability\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industry Reports\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2020-2025",
+      "last 5 years",
+      "English",
+      "Empirical study",
+      "Benchmark evaluation",
+      "arXiv preprint",
+      "CS categories (cs.DS, cs.CR)",
+      "Cited \u22655 times",
+      "Peer\u2011reviewed version available",
+      "Open access full text"
+    ],
+    "exclude": [
+      "pre-2000",
+      "before 2010",
+      "Non-English",
+      "Opinion piece",
+      "Tutorial",
+      "Non\u2011CS categories",
+      "arXiv non\u2011research items",
+      "Uncited",
+      "Non\u2011peer\u2011reviewed only",
+      "Paywalled"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Does the study explicitly state its research objectives and hypotheses?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the sorting algorithm implementations and parameter settings fully described?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the evaluation performed on publicly available benchmark datasets or code?",
+        "weight": 0.5
+      },
+      {
+        "text": "Does the paper report statistical analysis or multiple runs to support performance claims?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the study context (e.g., journal, conference, industry report) clearly identified?",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 2.6
+  },
+  "extraction_form": {
+    "fields": [
+      {
+        "name": "Research type",
+        "type": "text",
+        "help": "Theoretical (abstract, concepts) or Empirical (data/case studies)."
+      },
+      {
+        "name": "By process phases, stages",
+        "type": "text",
+        "help": "Use lifecycle/framework stages (e.g., MAPE-K, context-aware lifecycle)."
+      },
+      {
+        "name": "By technology, framework, or platform",
+        "type": "text",
+        "help": "Technologies, frameworks, tools or platforms used."
+      },
+      {
+        "name": "By application field and/or industry domain",
+        "type": "text",
+        "help": "Primary application field/domain (e.g., manufacturing, VR)."
+      },
+      {
+        "name": "Gaps and challenges",
+        "type": "text",
+        "help": "Identified gaps/challenges and future needs."
+      },
+      {
+        "name": "Findings in research",
+        "type": "text",
+        "help": "Main findings (framework, algorithm, methodology, data model, approach)."
+      },
+      {
+        "name": "Evaluation method",
+        "type": "text",
+        "help": "Case study, experiment, survey, mathematical demonstration, indicators."
+      }
+    ]
+  }
+}

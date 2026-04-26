@@ -1,0 +1,108 @@
+{
+  "topic": "NLP-Based Automation of Systematic Literature Reviews in Computer Science",
+  "picoc": {
+    "Population": [
+      "Computer Science Researchers",
+      "Software Engineers",
+      "Academic Authors",
+      "Graduate Students",
+      "Research Teams",
+      "researcher"
+    ],
+    "Intervention": [
+      "Transformer Models",
+      "BERT Classifier",
+      "Prompt Engineering",
+      "Extraction Pipeline",
+      "Screening Bot"
+    ],
+    "Comparison": [
+      "Manual Screening",
+      "Keyword Search",
+      "Rule Based Systems",
+      "Traditional IR",
+      "Heuristic Baseline"
+    ],
+    "Outcome": [
+      "Precision",
+      "Recall",
+      "f1score",
+      "Time Savings",
+      "Scalability"
+    ],
+    "Context": [
+      "Digital Libraries",
+      "Conference Proceedings",
+      "ArXiv Preprints",
+      "IEEE Xplore",
+      "ACM Digital Library"
+    ]
+  },
+  "rqs": [
+    "What is the impact of transformer\u2011based models on precision, recall, and F1\u2011score of systematic literature review screening compared to manual screening in computer science?",
+    "Which NLP automation techniques (e.g., BERT classifier, prompt engineering, extraction pipelines) achieve the greatest time savings and scalability when applied to digital libraries for SLRs?",
+    "In which contexts (e.g., conference proceedings, arXiv, IEEE Xplore) do NLP\u2011based screening bots outperform keyword search and rule\u2011based systems in identifying relevant studies?"
+  ],
+  "base_query": "(\"Computer Science Researchers\" OR \"Software Engineers\" OR \"Academic Authors\" OR \"Graduate Students\" OR \"Research Teams\" OR \"researcher\") AND (\"Transformer Models\" OR \"BERT Classifier\" OR \"Prompt Engineering\" OR \"Extraction Pipeline\" OR \"Screening Bot\") AND (\"Manual Screening\" OR \"Keyword Search\" OR \"Rule Based Systems\" OR \"Traditional IR\" OR \"Heuristic Baseline\") AND (\"Precision\" OR \"Recall\" OR \"f1score\" OR \"Time Savings\" OR \"Scalability\") AND (\"Digital Libraries\" OR \"Conference Proceedings\" OR \"ArXiv Preprints\" OR \"IEEE Xplore\" OR \"ACM Digital Library\")",
+  "arxiv_query": "(all:\"Computer Science Researchers\" OR all:\"Software Engineers\" OR all:\"Academic Authors\" OR all:\"Graduate Students\" OR all:\"Research Teams\" OR all:\"researcher\") AND (all:\"Transformer Models\" OR all:\"BERT Classifier\" OR all:\"Prompt Engineering\" OR all:\"Extraction Pipeline\" OR all:\"Screening Bot\") AND (all:\"Manual Screening\" OR all:\"Keyword Search\" OR all:\"Rule Based Systems\" OR all:\"Traditional IR\" OR all:\"Heuristic Baseline\") AND (all:\"Precision\" OR all:\"Recall\" OR all:\"f1score\" OR all:\"Time Savings\" OR all:\"Scalability\") AND (all:\"Digital Libraries\" OR all:\"Conference Proceedings\" OR all:\"ArXiv Preprints\" OR all:\"IEEE Xplore\" OR all:\"ACM Digital Library\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2020-2025",
+      "last 5 years",
+      "English",
+      "English abstract",
+      "peer\u2011reviewed conference/journal papers",
+      "arXiv preprints with research focus",
+      "arXiv CS categories (cs.*, stat.ML)",
+      "digital library metadata records",
+      "citations or venue prestige (ACM, IEEE)",
+      "recognized conference proceedings"
+    ],
+    "exclude": [
+      "pre\u20112015",
+      "before 2018",
+      "non\u2011English",
+      "foreign language only",
+      "editorials or commentaries",
+      "tutorials, surveys without original experiments",
+      "non\u2011CS arXiv categories",
+      "blog posts, whitepapers",
+      "no citation data",
+      "predatory or unverified venues"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Is the study\u2019s objective and research question explicitly defined?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the data sources (e.g., digital libraries) and selection criteria fully described?",
+        "weight": 1.0
+      },
+      {
+        "text": "Does the paper report quantitative evaluation metrics (precision, recall, F1) for the NLP method?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the experimental setup reproducible (code, model details, hyperparameters provided)?",
+        "weight": 0.5
+      },
+      {
+        "text": "Are limitations and threats to validity discussed?",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 2.6
+  }
+}

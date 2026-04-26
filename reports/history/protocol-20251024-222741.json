@@ -1,0 +1,79 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Engineers",
+      "Computer Science Students",
+      "Embedded Systems"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "HeapSort",
+      "Radix Sort",
+      "TimSort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Selection Sort",
+      "Bubble Sort",
+      "Shell Sort",
+      "Bucket Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Comparisons",
+      "Cache Misses"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industrial Case Studies"
+    ]
+  },
+  "rqs": [
+    "What are the reported time and space complexities of QuickSort, MergeSort, HeapSort, Radix Sort, and TimSort compared to classic sorts in academic and industrial sources?",
+    "Which of QuickSort, MergeSort, HeapSort, Radix Sort, or TimSort provides the best stability and lowest cache misses for software developers and data engineers?",
+    "In which scenarios do advanced sorting algorithms outperform insertion, selection, bubble, shell, and bucket sorts regarding comparisons and cache behavior?"
+  ],
+  "base_query": "",
+  "arxiv_query": "",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2020-2025",
+      "last 10 years",
+      "English",
+      "Preprint",
+      "Conference paper",
+      "arXiv CS category (cs.DS, cs.SE)",
+      "arXiv preprint",
+      "Cited \u22655 times",
+      "Peer-reviewed venue",
+      "Open access PDF",
+      "fdbdfbdf",
+      "b gbfgb"
+    ],
+    "exclude": [
+      "pre-2000",
+      "before 2010",
+      "Non-English",
+      "Languages other than English",
+      "Book chapter",
+      "Magazine article",
+      "Non-CS arXiv categories",
+      "Non-arXiv source",
+      "Uncited",
+      "Non-peer-reviewed"
+    ]
+  }
+}

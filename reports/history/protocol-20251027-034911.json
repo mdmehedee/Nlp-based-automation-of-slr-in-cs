@@ -1,0 +1,107 @@
+{
+  "topic": "NLP-Based Automation of Systematic Literature Reviews in Computer Science",
+  "picoc": {
+    "Population": [
+      "Computer Science Researchers",
+      "Software Engineers",
+      "Data Scientists",
+      "Graduate Students",
+      "researcher"
+    ],
+    "Intervention": [
+      "NLP Automation",
+      "Transformer Summarizer",
+      "Semantic Search",
+      "Citation Network",
+      "Topic Modeling"
+    ],
+    "Comparison": [
+      "Manual Screening",
+      "Keyword Search",
+      "Rule Based Extraction",
+      "Traditional IR",
+      "Baseline Classifier"
+    ],
+    "Outcome": [
+      "Precision",
+      "Recall",
+      "f1score",
+      "Extraction Time",
+      "Scalability"
+    ],
+    "Context": [
+      "Digital Libraries",
+      "Conference Proceedings",
+      "ArXiv Preprints",
+      "IEEE Xplore",
+      "ACM Digital Library"
+    ]
+  },
+  "rqs": [
+    "What is the impact of NLP automation (e.g., transformer summarizer, semantic search) on precision, recall, and f1\u2011score compared to manual screening in CS digital libraries?",
+    "Which NLP\u2011based method (transformer summarizer, citation network analysis, topic modeling) provides the greatest extraction\u2011time reduction and scalability for systematic reviews of CS conference proceedings?",
+    "In which contexts (ArXiv, IEEE Xplore, ACM Digital Library) does NLP automation outperform keyword search in extraction accuracy and reviewer workload reduction?"
+  ],
+  "base_query": "(\"Computer Science Researchers\" OR \"Software Engineers\" OR \"Data Scientists\" OR \"Graduate Students\" OR \"researcher\") AND (\"NLP Automation\" OR \"Transformer Summarizer\" OR \"Semantic Search\" OR \"Citation Network\" OR \"Topic Modeling\") AND (\"Manual Screening\" OR \"Keyword Search\" OR \"Rule Based Extraction\" OR \"Traditional IR\" OR \"Baseline Classifier\") AND (\"Precision\" OR \"Recall\" OR \"f1score\" OR \"Extraction Time\" OR \"Scalability\") AND (\"Digital Libraries\" OR \"Conference Proceedings\" OR \"ArXiv Preprints\" OR \"IEEE Xplore\" OR \"ACM Digital Library\")",
+  "arxiv_query": "(all:\"Computer Science Researchers\" OR all:\"Software Engineers\" OR all:\"Data Scientists\" OR all:\"Graduate Students\" OR all:\"researcher\") AND (all:\"NLP Automation\" OR all:\"Transformer Summarizer\" OR all:\"Semantic Search\" OR all:\"Citation Network\" OR all:\"Topic Modeling\") AND (all:\"Manual Screening\" OR all:\"Keyword Search\" OR all:\"Rule Based Extraction\" OR all:\"Traditional IR\" OR all:\"Baseline Classifier\") AND (all:\"Precision\" OR all:\"Recall\" OR all:\"f1score\" OR all:\"Extraction Time\" OR all:\"Scalability\") AND (all:\"Digital Libraries\" OR all:\"Conference Proceedings\" OR all:\"ArXiv Preprints\" OR all:\"IEEE Xplore\" OR all:\"ACM Digital Library\") AND (cat:cs.AI OR cat:cs.CL OR cat:cs.CC OR cat:cs.CE OR cat:cs.CG OR cat:cs.CR OR cat:cs.CV OR cat:cs.CY OR cat:cs.DB OR cat:cs.DC OR cat:cs.DL OR cat:cs.DM OR cat:cs.DS OR cat:cs.ET OR cat:cs.FL OR cat:cs.GL OR cat:cs.GR OR cat:cs.GT OR cat:cs.HC OR cat:cs.IR OR cat:cs.IT OR cat:cs.LG OR cat:cs.LO OR cat:cs.MA OR cat:cs.MM OR cat:cs.MS OR cat:cs.NA OR cat:cs.NE OR cat:cs.NI OR cat:cs.OH OR cat:cs.OS OR cat:cs.PF OR cat:cs.PL OR cat:cs.RO OR cat:cs.SC OR cat:cs.SD OR cat:cs.SE OR cat:cs.SI OR cat:cs.SY)",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2018-2025",
+      "last 5 years",
+      "English",
+      "peer\u2011reviewed conference/journal papers",
+      "arXiv preprint research articles",
+      "arXiv CS categories (cs.*, stat.ML)",
+      "digital library metadata",
+      "mentions NLP automation (transformer, semantic search, topic modeling)",
+      "reports empirical evaluation",
+      "open\u2011access full text"
+    ],
+    "exclude": [
+      "pre\u20112015",
+      "before 2010",
+      "non\u2011English",
+      "editorials",
+      "tutorials or blog posts",
+      "non\u2011CS arXiv categories",
+      "non\u2011digital library sources",
+      "purely theoretical NLP without automation",
+      "no mention of systematic review",
+      "paywalled"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Is the study's methodology for NLP automation described in sufficient detail?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the datasets (e.g., digital libraries) used for evaluation explicitly listed?",
+        "weight": 1.0
+      },
+      {
+        "text": "Does the paper report both precision and recall (or F1) for the NLP approach?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is a baseline (e.g., manual screening or keyword search) compared against the NLP method?",
+        "weight": 0.5
+      },
+      {
+        "text": "Are limitations and threats to validity discussed?",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 2.6
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "topic": "Data extraction",
+  "picoc": {
+    "Population": [
+      "Software Engineers",
+      "Data Scientists",
+      "Researchers",
+      "Business Analysts",
+      "System Administrators",
+      "researcher"
+    ],
+    "Intervention": [
+      "Web Scraping",
+      "ETL Pipelines",
+      "Information Extraction",
+      "NLP Parsers",
+      "Data Mining"
+    ],
+    "Comparison": [
+      "Manual Extraction",
+      "Rule Based Extraction",
+      "Template Matching",
+      "Heuristic Methods"
+    ],
+    "Outcome": [
+      "Precision",
+      "Recall",
+      "f1-score",
+      "Accuracy",
+      "Latency"
+    ],
+    "Context": [
+      "Digital Libraries",
+      "Open Source Repositories",
+      "Enterprise Systems",
+      "Benchmark Datasets",
+      "Industry Case Studies"
+    ]
+  },
+  "rqs": [
+    "What are the precision, recall, and latency outcomes of automated data extraction methods compared to manual extraction in digital libraries?",
+    "Which data extraction techniques (e.g., web scraping, ETL pipelines, NLP parsers) achieve the highest F1-score for software engineers and data scientists in enterprise systems?",
+    "In which contexts (benchmark datasets, open source repositories, industry case studies) do rule\u2011based extraction methods outperform heuristic methods in accuracy?"
+  ],
+  "base_query": "(\"Software Engineers\" OR \"Data Scientists\" OR \"Researchers\" OR \"Business Analysts\" OR \"System Administrators\" OR \"researcher\") AND (\"Web Scraping\" OR \"ETL Pipelines\" OR \"Information Extraction\" OR \"NLP Parsers\" OR \"Data Mining\") AND (\"Manual Extraction\" OR \"Rule Based Extraction\" OR \"Template Matching\" OR \"Heuristic Methods\") AND (\"Precision\" OR \"Recall\" OR \"f1-score\" OR \"Accuracy\" OR \"Latency\") AND (\"Digital Libraries\" OR \"Open Source Repositories\" OR \"Enterprise Systems\" OR \"Benchmark Datasets\" OR \"Industry Case Studies\")",
+  "arxiv_query": "(all:\"Software Engineers\" OR all:\"Data Scientists\" OR all:\"Researchers\" OR all:\"Business Analysts\" OR all:\"System Administrators\" OR all:\"researcher\") AND (all:\"Web Scraping\" OR all:\"ETL Pipelines\" OR all:\"Information Extraction\" OR all:\"NLP Parsers\" OR all:\"Data Mining\") AND (all:\"Manual Extraction\" OR all:\"Rule Based Extraction\" OR all:\"Template Matching\" OR all:\"Heuristic Methods\") AND (all:\"Precision\" OR all:\"Recall\" OR all:\"f1-score\" OR all:\"Accuracy\" OR all:\"Latency\") AND (all:\"Digital Libraries\" OR all:\"Open Source Repositories\" OR all:\"Enterprise Systems\" OR all:\"Benchmark Datasets\" OR all:\"Industry Case Studies\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2015-2025",
+      "last 10 years",
+      "English",
+      "English abstracts",
+      "Conference papers",
+      "Journal articles",
+      "arXiv CS categories (cs.DL, cs.IR, cs.SE, cs.LG)",
+      "arXiv preprints with CS subject tags",
+      "Cited or published in top CS venues",
+      "High citation count (>5)"
+    ],
+    "exclude": [
+      "before 2010",
+      "pre\u20112010 studies",
+      "non-English",
+      "other languages",
+      "Workshop abstracts",
+      "Posters",
+      "Non\u2011CS arXiv categories",
+      "arXiv preprints outside computer science",
+      "Uncited preprints without venue",
+      "Low citation count (<5)"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Is the automated data extraction method described in enough detail to replicate?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are evaluation metrics (precision, recall, F1-score, latency) reported for each method?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the study context (e.g., digital library, enterprise system) clearly specified?",
+        "weight": 0.5
+      },
+      {
+        "text": "Does the paper compare the automated approach against a manual or baseline extraction method?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the source code, tool, or configuration used for extraction made publicly available?",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 2.6
+  },
+  "extraction_form": {
+    "fields": [
+      {
+        "name": "Publication Year",
+        "type": "number",
+        "options": [],
+        "help": "Year the study was published"
+      },
+      {
+        "name": "Venue",
+        "type": "text",
+        "options": [],
+        "help": "Conference, journal, workshop, or other outlet"
+      },
+      {
+        "name": "Research Type",
+        "type": "select",
+        "options": [
+          "Theoretical",
+          "Empirical",
+          "Survey",
+          "Case Study",
+          "Review"
+        ],
+        "help": "Overall categorisation of the study"
+      },
+      {
+        "name": "Extraction Technique",
+        "type": "multiselect",
+        "options": [
+          "Web Scraping",
+          "ETL Pipelines",
+          "Information Extraction",
+          "NLP Parsers",
+          "Data Mining",
+          "Rule\u2011Based Extraction",
+          "Template Matching",
+          "Heuristic Methods",
+          "Manual Extraction"
+        ],
+        "help": "Primary automated or manual method evaluated"
+      },
+      {
+        "name": "Evaluation Context",
+        "type": "multiselect",
+        "options": [
+          "Digital Libraries",
+          "Open Source Repositories",
+          "Enterprise Systems",
+          "Benchmark Datasets",
+          "Industry Case Studies"
+        ],
+        "help": "Domain or setting where the technique was applied"
+      },
+      {
+        "name": "Metrics Reported",
+        "type": "multiselect",
+        "options": [
+          "Precision",
+          "Recall",
+          "F1\u2011score",
+          "Accuracy",
+          "Latency",
+          "Throughput",
+          "Error Rate"
+        ],
+        "help": "Performance measures presented in the study"
+      },
+      {
+        "name": "Metric Values",
+        "type": "long_text",
+        "options": [],
+        "help": "Numeric values for each reported metric (e.g., Precision=0.92, Latency=120\u202fms)"
+      },
+      {
+        "name": "Process Phase",
+        "type": "multiselect",
+        "options": [
+          "Requirement Gathering",
+          "Data Collection",
+          "Data Cleaning",
+          "Transformation",
+          "Loading",
+          "Analysis",
+          "Visualization"
+        ],
+        "help": "Stages of the data extraction pipeline addressed"
+      },
+      {
+        "name": "Gaps / Challenges",
+        "type": "long_text",
+        "options": [],
+        "help": "Limitations, open issues, or future work highlighted by the authors"
+      }
+    ]
+  }
+}

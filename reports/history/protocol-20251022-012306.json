@@ -1,0 +1,47 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Processing Systems",
+      "Embedded Devices",
+      "High Performance Computing"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "Radix Sort",
+      "Parallel Sorting",
+      "GPU Sorting"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Bubble Sort",
+      "Heap Sort",
+      "Selection Sort",
+      "Naive Sorting"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Runtime",
+      "Throughput",
+      "Scalability"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, MergeSort, Radix Sort, Parallel Sorting, and GPU Sorting versus Insertion, Bubble, Heap, Selection, and Naive sorts in academic journals?",
+    "Which sorting algorithms achieve the highest throughput and scalability on high\u2011performance computing and embedded devices according to benchmark suites and industry reports?",
+    "In which contexts (academic, conference, open\u2011source, industry) do parallel and GPU sorting outperform traditional sorts in runtime for data processing systems?"
+  ],
+  "base_query": "",
+  "arxiv_query": ""
+}

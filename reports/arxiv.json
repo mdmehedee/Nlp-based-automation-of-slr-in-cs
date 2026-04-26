@@ -1,0 +1,307 @@
+[
+  {
+    "entry_id": "http://arxiv.org/abs/1609.04471v1",
+    "title": "Sort Race",
+    "summary": "Sorting is one of the oldest computing problems and is still very important\nin the age of big data. Various algorithms and implementation techniques have\nbeen proposed. In this study, we focus on comparison based, internal sorting\nalgorithms. We created 12 data types of various sizes for experiments and\ntested extensively various implementations in a single setting. Using some\neffective techniques, we discovered that quicksort is adaptive to nearly sorted\ninputs and is still the best overall sorting algorithm. We also identified\nwhich techniques are effective in timsort, one of the most popular and\nefficient sorting method based on natural mergesort, and created our version of\nmergesort, which runs faster than timsort on nearly sorted instances. Our\nimplementations of quicksort and mergesort are different from other\nimplementations reported in all textbooks or research articles, faster than any\nversion of the C library qsort functions, not only for randomly generated data,\nbut also for various types of nearly sorted data. This experiment can help the\nuser to choose the best sorting algorithm for the hard sorting job at hand.\nThis work provides a platform for anyone to test their own sorting algorithm\nagainst the best in the field.",
+    "authors": [
+      "Hantao Zhang",
+      "Baoluo Meng",
+      "Yiwen Liang"
+    ],
+    "published": "2016-09-14",
+    "updated": "2016-09-14",
+    "categories": [
+      "cs.DS"
+    ],
+    "primary_category": "cs.DS",
+    "journal_ref": null,
+    "doi": null,
+    "abs_url": "http://arxiv.org/abs/1609.04471v1",
+    "pdf_url": "http://arxiv.org/pdf/1609.04471v1",
+    "links": [
+      "http://arxiv.org/abs/1609.04471v1",
+      "http://arxiv.org/pdf/1609.04471v1"
+    ]
+  },
+  {
+    "entry_id": "http://arxiv.org/abs/2010.08051v1",
+    "title": "Program Equivalence for Assisted Grading of Functional Programs (Extended Version)",
+    "summary": "In courses that involve programming assignments, giving meaningful feedback\nto students is an important challenge. Human beings can give useful feedback by\nmanually grading the programs but this is a time-consuming, labor intensive,\nand usually boring process. Automatic graders can be fast and scale well but\nthey usually provide poor feedback. Although there has been research on\nimproving automatic graders, research on scaling and improving human grading is\nlimited.\n  We propose to scale human grading by augmenting the manual grading process\nwith an equivalence algorithm that can identify the equivalences between\nstudent submissions. This enables human graders to give targeted feedback for\nmultiple student submissions at once. Our technique is conservative in two\naspects. First, it identifies equivalence between submissions that are\nalgorithmically similar, e.g., it cannot identify the equivalence between\nquicksort and mergesort. Second, it uses formal methods instead of clustering\nalgorithms from the machine learning literature. This allows us to prove a\nsoundness result that guarantees that submissions will never be clustered\ntogether in error. Despite only reporting equivalence when there is algorithmic\nsimilarity and the ability to formally prove equivalence, we show that our\ntechnique can significantly reduce grading time for thousands of programming\nsubmissions from an introductory functional programming course.",
+    "authors": [
+      "Joshua Clune",
+      "Vijay Ramamurthy",
+      "Ruben Martins",
+      "Umut A. Acar"
+    ],
+    "published": "2020-10-15",
+    "updated": "2020-10-15",
+    "categories": [
+      "cs.PL"
+    ],
+    "primary_category": "cs.PL",
+    "journal_ref": null,
+    "doi": "10.1145/3428239",
+    "abs_url": "http://arxiv.org/abs/2010.08051v1",
+    "pdf_url": "http://arxiv.org/pdf/2010.08051v1",
+    "links": [
+      "http://dx.doi.org/10.1145/3428239",
+      "http://arxiv.org/abs/2010.08051v1",
+      "http://arxiv.org/pdf/2010.08051v1"
+    ]
+  },
+  {
+    "entry_id": "http://arxiv.org/abs/1605.05989v2",
+    "title": "Ancilla-free Reversible Logic Synthesis via Sorting",
+    "summary": "Reversible logic synthesis is emerging as a major research component for\npost-CMOS computing devices, in particular Quantum computing. In this work, we\nlink the reversible logic synthesis problem to sorting algorithms. Based on our\nanalysis, an alternative derivation of the worst-case complexity of generated\nreversible circuits is provided. Furthermore, a novel column-wise reversible\nlogic synthesis method, termed RevCol, is designed with inspiration from radix\nsort. Extending the principles of RevCol, we present a hybrid reversible logic\nsynthesis framework. The theoretical and experimental results are presented.\nThe results are extensively benchmarked with state-of-the-art ancilla-free\nreversible logic synthesis methods.",
+    "authors": [
+      "Anupam Chattopadhyay",
+      "Sharif Md Khairul Hossain"
+    ],
+    "published": "2016-05-19",
+    "updated": "2016-05-26",
+    "categories": [
+      "cs.ET"
+    ],
+    "primary_category": "cs.ET",
+    "journal_ref": null,
+    "doi": null,
+    "abs_url": "http://arxiv.org/abs/1605.05989v2",
+    "pdf_url": "http://arxiv.org/pdf/1605.05989v2",
+    "links": [
+      "http://arxiv.org/abs/1605.05989v2",
+      "http://arxiv.org/pdf/1605.05989v2"
+    ]
+  },
+  {
+    "entry_id": "http://arxiv.org/abs/1802.02619v1",
+    "title": "High Performance Rearrangement and Multiplication Routines for Sparse Tensor Arithmetic",
+    "summary": "Researchers are increasingly incorporating numeric high-order data, i.e.,\nnumeric tensors, within their practice. Just like the matrix/vector (MV)\nparadigm, the development of multi-purpose, but high-performance, sparse data\nstructures and algorithms for arithmetic calculations, e.g., those found in\nEinstein-like notation, is crucial for the continued adoption of tensors. We\nuse the example of high-order differential operators to illustrate this need.\nAs sparse tensor arithmetic is an emerging research topic, with challenges\ndistinct from the MV paradigm, many aspects require further articulation. We\nfocus on three core facets. First, aligning with prominent voices in the field,\nwe emphasise the importance of data structures able to accommodate the\noperational complexity of tensor arithmetic. However, we describe a linearised\ncoordinate (LCO) data structure that provides faster and more memory-efficient\nsorting performance. Second, flexible data structures, like the LCO, rely\nheavily on sorts and permutations. We introduce an innovative permutation\nalgorithm, based on radix sort, that is tailored to rearrange already-sorted\nsparse data, producing significant performance gains. Third, we introduce a\nnovel poly-algorithm for sparse tensor products, where hyper-sparsity is a\npossibility. Different manifestations of hyper-sparsity demand their own\napproach, which our poly-algorithm is the first to provide. These developments\nare incorporated within our LibNT and NTToolbox software libraries. Benchmarks,\nfrequently drawn from the high-order differential operators example,\ndemonstrate the practical impact of our routines, with speed-ups of 40% or\nhigher compared to alternative high-performance implementations. Comparisons\nagainst the MATLAB Tensor Toolbox show over 10 times speed improvements. Thus,\nthese advancements produce significant practical improvements for sparse tensor\narithmetic.",
+    "authors": [
+      "Adam P. Harrison",
+      "Dileepan Joseph"
+    ],
+    "published": "2018-02-07",
+    "updated": "2018-02-07",
+    "categories": [
+      "cs.MS"
+    ],
+    "primary_category": "cs.MS",
+    "journal_ref": null,
+    "doi": null,
+    "abs_url": "http://arxiv.org/abs/1802.02619v1",
+    "pdf_url": "http://arxiv.org/pdf/1802.02619v1",
+    "links": [
+      "http://arxiv.org/abs/1802.02619v1",
+      "http://arxiv.org/pdf/1802.02619v1"
+    ]
+  },
+  {
+    "entry_id": "http://arxiv.org/abs/2202.08463v1",
+    "title": "A Creativity Survey of Parallel Sorting Algorithm",
+    "summary": "Sorting is one of the most fundamental problems in the field of computer\nscience. With the rapid development of manycore processors, it shows great\nimportance to design efficient parallel sort algorithm on manycore\narchitecture. This paper studies the parallel memory sorting method on modern\nhardware, and summarizes its research status and progress. Classify the\nresearch problems, research methods and measurement methods of the target\npapers and references. In the end, we summarize all the researches and list the\ndirections not researched and innovative places. Keywords: Sorting Algorithm,\nParallel Algorithm, Parallel Optimization, CPU, GPU, Memory Hierarchy",
+    "authors": [
+      "Tianyi Yu",
+      "Wei Li"
+    ],
+    "published": "2022-02-17",
+    "updated": "2022-02-17",
+    "categories": [
+      "cs.DC"
+    ],
+    "primary_category": "cs.DC",
+    "journal_ref": null,
+    "doi": null,
+    "abs_url": "http://arxiv.org/abs/2202.08463v1",
+    "pdf_url": "http://arxiv.org/pdf/2202.08463v1",
+    "links": [
+      "http://arxiv.org/abs/2202.08463v1",
+      "http://arxiv.org/pdf/2202.08463v1"
+    ]
+  },
+  {
+    "entry_id": "http://arxiv.org/abs/1704.08579v2",
+    "title": "A Novel Hybrid Quicksort Algorithm Vectorized using AVX-512 on Intel Skylake",
+    "summary": "The modern CPU's design, which is composed of hierarchical memory and\nSIMD/vectorization capability, governs the potential for algorithms to be\ntransformed into efficient implementations. The release of the AVX-512 changed\nthings radically, and motivated us to search for an efficient sorting algorithm\nthat can take advantage of it. In this paper, we describe the best strategy we\nhave found, which is a novel two parts hybrid sort, based on the well-known\nQuicksort algorithm. The central partitioning operation is performed by a new\nalgorithm, and small partitions/arrays are sorted using a branch-free\nBitonic-based sort. This study is also an illustration of how classical\nalgorithms can be adapted and enhanced by the AVX-512 extension. We evaluate\nthe performance of our approach on a modern Intel Xeon Skylake and assess the\ndifferent layers of our implementation by sorting/partitioning integers, double\nfloating-point numbers, and key/value pairs of integers. Our results\ndemonstrate that our approach is faster than two libraries of reference: the\nGNU \\emph{C++} sort algorithm by a speedup factor of 4, and the Intel IPP\nlibrary by a speedup factor of 1.4.",
+    "authors": [
+      "Berenger Bramas"
+    ],
+    "published": "2017-04-24",
+    "updated": "2018-03-12",
+    "categories": [
+      "cs.MS"
+    ],
+    "primary_category": "cs.MS",
+    "journal_ref": "Article Published in International Journal of Advanced Computer\n  Science and Applications(IJACSA), Volume 8 Issue 10, 2017",
+    "doi": "10.14569/IJACSA.2017.081044",
+    "abs_url": "http://arxiv.org/abs/1704.08579v2",
+    "pdf_url": "http://arxiv.org/pdf/1704.08579v2",
+    "links": [
+      "http://dx.doi.org/10.14569/IJACSA.2017.081044",
+      "http://arxiv.org/abs/1704.08579v2",
+      "http://arxiv.org/pdf/1704.08579v2"
+    ]
+  },
+  {
+    "entry_id": "http://arxiv.org/abs/2409.03970v1",
+    "title": "A Hybrid Vectorized Merge Sort on ARM NEON",
+    "summary": "Sorting algorithms are the most extensively researched topics in computer\nscience and serve for numerous practical applications. Although various sorts\nhave been proposed for efficiency, different architectures offer distinct\nflavors to the implementation of parallel sorting. In this paper, we propose a\nhybrid vectorized merge sort on ARM NEON, named NEON Merge Sort for short\n(NEON-MS). In detail, according to the granted register functions, we first\nidentify the optimal register number to avoid the register-to-memory access,\ndue to the write-back of intermediate outcomes. More importantly, following the\ngeneric merge sort framework that primarily uses sorting network for column\nsort and merging networks for three types of vectorized merge, we further\nimprove their structures for high efficiency in an unified asymmetry way: 1) it\nmakes the optimal sorting networks with few comparators become possible; 2)\nhybrid implementation of both serial and vectorized merges incurs the pipeline\nwith merge instructions highly interleaved. Experiments on a single FT2000+\ncore show that NEON-MS is 3.8 and 2.1 times faster than std::sort and\nboost::block\\_sort, respectively, on average. Additionally, as compared to the\nparallel version of the latter, NEON-MS gains an average speedup of 1.25.",
+    "authors": [
+      "Jincheng Zhou",
+      "Jin Zhang",
+      "Xiang Zhang",
+      "Tiaojie Xiao",
+      "Di Ma",
+      "Chunye Gong"
+    ],
+    "published": "2024-09-06",
+    "updated": "2024-09-06",
+    "categories": [
+      "cs.DC",
+      "cs.DS"
+    ],
+    "primary_category": "cs.DC",
+    "journal_ref": null,
+    "doi": null,
+    "abs_url": "http://arxiv.org/abs/2409.03970v1",
+    "pdf_url": "http://arxiv.org/pdf/2409.03970v1",
+    "links": [
+      "http://arxiv.org/abs/2409.03970v1",
+      "http://arxiv.org/pdf/2409.03970v1"
+    ]
+  },
+  {
+    "entry_id": "http://arxiv.org/abs/1810.00619v3",
+    "title": "SmartChoices: Hybridizing Programming and Machine Learning",
+    "summary": "We present SmartChoices, an approach to making machine learning (ML) a first\nclass citizen in programming languages which we see as one way to lower the\nentrance cost to applying ML to problems in new domains. There is a growing\ndivide in approaches to building systems: on the one hand, programming\nleverages human experts to define a system while on the other hand behavior is\nlearned from data in machine learning. We propose to hybridize these two by\nproviding a 3-call API which we expose through an object called SmartChoice. We\ndescribe the SmartChoices-interface, how it can be used in programming with\nminimal code changes, and demonstrate that it is an easy to use but still\npowerful tool by demonstrating improvements over not using ML at all on three\nalgorithmic problems: binary search, QuickSort, and caches. In these three\nexamples, we replace the commonly used heuristics with an ML model entirely\nencapsulated within a SmartChoice and thus requiring minimal code changes. As\nopposed to previous work applying ML to algorithmic problems, our proposed\napproach does not require to drop existing implementations but seamlessly\nintegrates into the standard software development workflow and gives full\ncontrol to the software developer over how ML methods are applied. Our\nimplementation relies on standard Reinforcement Learning (RL) methods. To learn\nfaster, we use the heuristic function, which they are replacing, as an initial\nfunction. We show how this initial function can be used to speed up and\nstabilize learning while providing a safety net that prevents performance to\nbecome substantially worse -- allowing for a safe deployment in critical\napplications in real life.",
+    "authors": [
+      "Victor Carbune",
+      "Thierry Coppey",
+      "Alexander Daryin",
+      "Thomas Deselaers",
+      "Nikhil Sarda",
+      "Jay Yagnik"
+    ],
+    "published": "2018-10-01",
+    "updated": "2019-06-13",
+    "categories": [
+      "cs.LG",
+      "cs.PL",
+      "stat.ML"
+    ],
+    "primary_category": "cs.LG",
+    "journal_ref": null,
+    "doi": null,
+    "abs_url": "http://arxiv.org/abs/1810.00619v3",
+    "pdf_url": "http://arxiv.org/pdf/1810.00619v3",
+    "links": [
+      "http://arxiv.org/abs/1810.00619v3",
+      "http://arxiv.org/pdf/1810.00619v3"
+    ]
+  },
+  {
+    "entry_id": "http://arxiv.org/abs/1207.0145v1",
+    "title": "Massively Parallel Sort-Merge Joins in Main Memory Multi-Core Database Systems",
+    "summary": "Two emerging hardware trends will dominate the database system technology in\nthe near future: increasing main memory capacities of several TB per server and\nmassively parallel multi-core processing. Many algorithmic and control\ntechniques in current database technology were devised for disk-based systems\nwhere I/O dominated the performance. In this work we take a new look at the\nwell-known sort-merge join which, so far, has not been in the focus of research\nin scalable massively parallel multi-core data processing as it was deemed\ninferior to hash joins. We devise a suite of new massively parallel sort-merge\n(MPSM) join algorithms that are based on partial partition-based sorting.\nContrary to classical sort-merge joins, our MPSM algorithms do not rely on a\nhard to parallelize final merge step to create one complete sort order. Rather\nthey work on the independently created runs in parallel. This way our MPSM\nalgorithms are NUMA-affine as all the sorting is carried out on local memory\npartitions. An extensive experimental evaluation on a modern 32-core machine\nwith one TB of main memory proves the competitive performance of MPSM on large\nmain memory databases with billions of objects. It scales (almost) linearly in\nthe number of employed cores and clearly outperforms competing hash join\nproposals - in particular it outperforms the \"cutting-edge\" Vectorwise parallel\nquery engine by a factor of four.",
+    "authors": [
+      "Martina-Cezara Albutiu",
+      "Alfons Kemper",
+      "Thomas Neumann"
+    ],
+    "published": "2012-06-30",
+    "updated": "2012-06-30",
+    "categories": [
+      "cs.DB"
+    ],
+    "primary_category": "cs.DB",
+    "journal_ref": "Proceedings of the VLDB Endowment (PVLDB), Vol. 5, No. 10, pp.\n  1064-1075 (2012)",
+    "doi": null,
+    "abs_url": "http://arxiv.org/abs/1207.0145v1",
+    "pdf_url": "http://arxiv.org/pdf/1207.0145v1",
+    "links": [
+      "http://arxiv.org/abs/1207.0145v1",
+      "http://arxiv.org/pdf/1207.0145v1"
+    ]
+  },
+  {
+    "entry_id": "http://arxiv.org/abs/1611.00463v2",
+    "title": "A Load-Balanced Parallel and Distributed Sorting Algorithm Implemented with PGX.D",
+    "summary": "Sorting has been one of the most challenging studied problems in different\nscientific researches. Although many techniques and algorithms have been\nproposed on the theory of having efficient parallel sorting implementation,\nhowever achieving desired performance on different types of the architectures\nwith large number of processors is still a challenging issue. Maximizing\nparallelism level in applications can be achieved by minimizing overheads due\nto load imbalance and waiting time due to memory latencies. In this paper, we\npresent a distributed sorting algorithm implemented in PGX.D, a fast\ndistributed graph processing system, which outperforms the Spark's distributed\nsorting implementation by around 2x-3x by hiding communication latencies and\nminimizing unnecessary overheads. Furthermore, it shows that the proposed PGX.D\nsorting method handles dataset containing many duplicated data entries\nefficiently and always results in keeping balanced workloads for different\ninput data distribution types.",
+    "authors": [
+      "Zahra Khatami",
+      "Sungpack Hong",
+      "Jinsoo Lee",
+      "Siegfried Depner",
+      "Hassan Chafi",
+      "J. Ramanujam",
+      "Hartmut Kaiser"
+    ],
+    "published": "2016-11-02",
+    "updated": "2017-01-14",
+    "categories": [
+      "cs.DC"
+    ],
+    "primary_category": "cs.DC",
+    "journal_ref": null,
+    "doi": null,
+    "abs_url": "http://arxiv.org/abs/1611.00463v2",
+    "pdf_url": "http://arxiv.org/pdf/1611.00463v2",
+    "links": [
+      "http://arxiv.org/abs/1611.00463v2",
+      "http://arxiv.org/pdf/1611.00463v2"
+    ]
+  },
+  {
+    "entry_id": "http://arxiv.org/abs/2508.14249v1",
+    "title": "To Zip Through the Cost Analysis of Probabilistic Programs",
+    "summary": "Probabilistic programming and the formal analysis of probabilistic algorithms\nare active areas of research, driven by the widespread use of randomness to\nimprove performance. While functional correctness has seen substantial\nprogress, automated reasoning about expected runtime remains comparatively\nlimited. In this work, we address this challenge by introducing a\nrefinement-typed probability monad in Liquid Haskell. Our monad enables\nautomated reasoning about expected values and costs by encoding probabilistic\nbehaviour directly in types. Initially defined for discrete distributions over\nfinite support, it is extended to support infinite distributions via an\naxiomatic approach. By leveraging Liquid Haskell's SMT-based refinement type\nchecking, our framework provides a high degree of automation. We evaluate our\napproach through four case studies: meldable heaps, coupon collector,\nrandomised quicksort, and zip trees. The first two demonstrate automation with\nminimal annotation overhead. The latter two showcase how our monad integrates\nwith interactive proofs, including the first formal verification of the\nexpected runtime of zip trees.",
+    "authors": [
+      "Matthias Hetzenberger",
+      "Georg Moser",
+      "Florian Zuleger"
+    ],
+    "published": "2025-08-19",
+    "updated": "2025-08-19",
+    "categories": [
+      "cs.LO"
+    ],
+    "primary_category": "cs.LO",
+    "journal_ref": null,
+    "doi": null,
+    "abs_url": "http://arxiv.org/abs/2508.14249v1",
+    "pdf_url": "http://arxiv.org/pdf/2508.14249v1",
+    "links": [
+      "http://arxiv.org/abs/2508.14249v1",
+      "http://arxiv.org/pdf/2508.14249v1"
+    ]
+  },
+  {
+    "entry_id": "http://arxiv.org/abs/2504.16093v1",
+    "title": "Efficient Portfolio Selection through Preference Aggregation with Quicksort and the Bradley--Terry Model",
+    "summary": "How to allocate limited resources to projects that will yield the greatest\nlong-term benefits is a problem that often arises in decision-making under\nuncertainty. For example, organizations may need to evaluate and select\ninnovation projects with risky returns. Similarly, when allocating resources to\nresearch projects, funding agencies are tasked with identifying the most\npromising proposals based on idiosyncratic criteria. Finally, in participatory\nbudgeting, a local community may need to select a subset of public projects to\nfund. Regardless of context, agents must estimate the uncertain values of a\npotentially large number of projects. Developing parsimonious methods to\ncompare these projects, and aggregating agent evaluations so that the overall\nbenefit is maximized, are critical in assembling the best project portfolio.\nUnlike in standard sorting algorithms, evaluating projects on the basis of\nuncertain long-term benefits introduces additional complexities. We propose\ncomparison rules based on Quicksort and the Bradley--Terry model, which\nconnects rankings to pairwise \"win\" probabilities. In our model, each agent\ndetermines win probabilities of a pair of projects based on his or her specific\nevaluation of the projects' long-term benefit. The win probabilities are then\nappropriately aggregated and used to rank projects. Several of the methods we\npropose perform better than the two most effective aggregation methods\ncurrently available. Additionally, our methods can be combined with sampling\ntechniques to significantly reduce the number of pairwise comparisons. We also\ndiscuss how the Bradley--Terry portfolio selection approach can be implemented\nin practice.",
+    "authors": [
+      "Yurun Ge",
+      "Lucas B\u00f6ttcher",
+      "Tom Chou",
+      "Maria R. D'Orsogna"
+    ],
+    "published": "2025-04-06",
+    "updated": "2025-04-06",
+    "categories": [
+      "q-fin.PM",
+      "cs.AI",
+      "math.PR",
+      "60-08, 90-08",
+      "G.3; I.6.1; J.4"
+    ],
+    "primary_category": "q-fin.PM",
+    "journal_ref": "J. Comput. Sci. 92, 102728 (2025)",
+    "doi": "10.1016/j.jocs.2025.102728",
+    "abs_url": "http://arxiv.org/abs/2504.16093v1",
+    "pdf_url": "http://arxiv.org/pdf/2504.16093v1",
+    "links": [
+      "http://dx.doi.org/10.1016/j.jocs.2025.102728",
+      "http://arxiv.org/abs/2504.16093v1",
+      "http://arxiv.org/pdf/2504.16093v1"
+    ]
+  }
+]

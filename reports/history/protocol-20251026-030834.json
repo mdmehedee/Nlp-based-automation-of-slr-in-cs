@@ -1,0 +1,77 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Computer Scientists",
+      "Data Engineers",
+      "Algorithm Researchers",
+      "Students"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "HeapSort",
+      "Radix Sort",
+      "TimSort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Selection Sort",
+      "Bubble Sort",
+      "Shell Sort",
+      "Naive Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Number Of Comparisons",
+      "Number Of Swaps"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, MergeSort, HeapSort, Radix Sort, and TimSort compared with classic sorts in academic journals and benchmark suites?",
+    "Which advanced sorting algorithm (QuickSort, MergeSort, HeapSort, Radix Sort, TimSort) offers best stability and fewest swaps for data engineers with large datasets?",
+    "In which contexts (academic, conference, open\u2011source, industry) do software developers and researchers prefer advanced sorting algorithms over classic ones based on performance?"
+  ],
+  "base_query": "",
+  "arxiv_query": "",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "Last 10 years (2015\u20112025)",
+      "Since 2000 for seminal works",
+      "English",
+      "English abstracts",
+      "Empirical performance studies",
+      "Algorithmic complexity analyses",
+      "arXiv CS categories (e.g., cs.DS, cs.SE)",
+      "Conference proceedings indexed in arXiv",
+      "Citations > 5 in Google Scholar",
+      "Highly cited benchmark papers"
+    ],
+    "exclude": [
+      "Before 1990",
+      "Older than 20 years",
+      "Non\u2011English full text",
+      "Languages other than English",
+      "Opinion pieces",
+      "Tutorials without evaluation",
+      "Non\u2011CS arXiv categories",
+      "Blog posts or informal reports",
+      "Uncited preprints",
+      "Citation count < 5"
+    ]
+  }
+}

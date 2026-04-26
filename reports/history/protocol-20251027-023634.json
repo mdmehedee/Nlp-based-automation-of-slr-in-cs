@@ -1,0 +1,107 @@
+{
+  "topic": "NLP-Based Automation of Systematic Literature Reviews in Computer Science",
+  "picoc": {
+    "Population": [
+      "Computer Science Researchers",
+      "Software Engineers",
+      "Graduate Students",
+      "Research Practitioners",
+      "researcher"
+    ],
+    "Intervention": [
+      "NLP Automation",
+      "Transformer Models",
+      "BERT Screening",
+      "Deep Learning",
+      "Information Extraction"
+    ],
+    "Comparison": [
+      "Manual Screening",
+      "Keyword Search",
+      "Rule-based Methods",
+      "Traditional IR",
+      "Heuristic Baseline"
+    ],
+    "Outcome": [
+      "Precision",
+      "Recall",
+      "f1-score",
+      "Accuracy",
+      "Efficiency"
+    ],
+    "Context": [
+      "Digital Libraries",
+      "Academic Databases",
+      "Conference Proceedings",
+      "ArXiv Repository",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What is the impact of NLP automation (e.g., BERT screening) on precision and recall compared to manual screening in CS systematic reviews?",
+    "Which transformer-based information extraction methods achieve higher efficiency than keyword search for identifying relevant CS literature in digital libraries?",
+    "In which contexts (digital libraries, arXiv, conference proceedings) does NLP-based automation improve the efficiency of systematic literature reviews for CS researchers?"
+  ],
+  "base_query": "(\"Computer Science Researchers\" OR \"Software Engineers\" OR \"Graduate Students\" OR \"Research Practitioners\" OR \"researcher\") AND (\"NLP Automation\" OR \"Transformer Models\" OR \"BERT Screening\" OR \"Deep Learning\" OR \"Information Extraction\") AND (\"Manual Screening\" OR \"Keyword Search\" OR \"Rule-based Methods\" OR \"Traditional IR\" OR \"Heuristic Baseline\") AND (\"Precision\" OR \"Recall\" OR \"f1-score\" OR \"Accuracy\" OR \"Efficiency\") AND (\"Digital Libraries\" OR \"Academic Databases\" OR \"Conference Proceedings\" OR \"ArXiv Repository\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Computer Science Researchers\" OR all:\"Software Engineers\" OR all:\"Graduate Students\" OR all:\"Research Practitioners\" OR all:\"researcher\") AND (all:\"NLP Automation\" OR all:\"Transformer Models\" OR all:\"BERT Screening\" OR all:\"Deep Learning\" OR all:\"Information Extraction\") AND (all:\"Manual Screening\" OR all:\"Keyword Search\" OR all:\"Rule-based Methods\" OR all:\"Traditional IR\" OR all:\"Heuristic Baseline\") AND (all:\"Precision\" OR all:\"Recall\" OR all:\"f1-score\" OR all:\"Accuracy\" OR all:\"Efficiency\") AND (all:\"Digital Libraries\" OR all:\"Academic Databases\" OR all:\"Conference Proceedings\" OR all:\"ArXiv Repository\" OR all:\"Industry Reports\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2020-2025",
+      "Last 5 years",
+      "English",
+      "Empirical study",
+      "Methodology paper",
+      "arXiv preprint",
+      "Conference proceeding",
+      "Cited \u22655 times",
+      "Peer-reviewed venue",
+      "Open access"
+    ],
+    "exclude": [
+      "Before 2015",
+      "Older than 10 years",
+      "Non-English",
+      "Languages other than English",
+      "Opinion piece",
+      "Editorial",
+      "Blog post",
+      "Magazine article",
+      "Non-peer-reviewed",
+      "Uncited"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Is the study\u2019s objective and research question explicitly defined?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the NLP methods (e.g., BERT, transformer) described in sufficient technical detail?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the evaluation dataset and its source (e.g., digital library) clearly reported?",
+        "weight": 0.5
+      },
+      {
+        "text": "Does the paper report both precision and recall (or F1) for the automation approach?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are limitations of the NLP automation and comparison to manual screening discussed?",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 2.6
+  }
+}

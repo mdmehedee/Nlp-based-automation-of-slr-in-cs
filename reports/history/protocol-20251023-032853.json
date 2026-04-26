@@ -1,0 +1,50 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Engineers",
+      "Computer Science Students",
+      "Embedded Systems"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "HeapSort",
+      "Radix Sort",
+      "TimSort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Selection Sort",
+      "Bubble Sort",
+      "Shell Sort",
+      "Counting Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Comparisons",
+      "Swaps"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industrial Case Studies"
+    ]
+  },
+  "rqs": [
+    "What are the reported time and space complexities of QuickSort, MergeSort, HeapSort, Radix Sort, and TimSort compared to classic sorts in academic journals and conference proceedings?",
+    "Which sorting algorithm among QuickSort, MergeSort, HeapSort, Radix Sort, and TimSort provides the best stability and minimal swaps for data engineers using open\u2011source benchmark suites?",
+    "In which scenarios do software developers and embedded systems prefer advanced sorts over insertion, selection, bubble, shell, or counting sorts based on performance outcomes reported in industrial case studies?"
+  ],
+  "base_query": "",
+  "arxiv_query": "",
+  "libraries": [
+    "arxiv"
+  ]
+}

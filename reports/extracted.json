@@ -1,0 +1,110 @@
+[
+  {
+    "paper": {
+      "Title": "Sort Race",
+      "Year": "2016",
+      "PDF": "http://arxiv.org/pdf/1609.04471v1",
+      "Link": "http://arxiv.org/abs/1609.04471v1"
+    },
+    "abstract": "",
+    "fields": {
+      "Research type": "",
+      "By process phases, stages": "",
+      "By technology, framework, or platform": "",
+      "By application field and/or industry domain": "",
+      "Gaps and challenges": "",
+      "Findings in research": "",
+      "Evaluation method": ""
+    }
+  },
+  {
+    "paper": {
+      "Title": "High Performance Rearrangement and Multiplication Routines for Sparse Tensor Arithmetic",
+      "Year": "2018",
+      "PDF": "http://arxiv.org/pdf/1802.02619v1",
+      "Link": "http://arxiv.org/abs/1802.02619v1"
+    },
+    "abstract": "",
+    "fields": {
+      "Research type": "Algorithm development and performance evaluation for sparse tensor arithmetic",
+      "By process phases, stages": "Design of data structures, sorting/permutation algorithms, multiplication poly-algorithm",
+      "By technology, framework, or platform": "C++ libraries (LibNT, NTToolbox) and MATLAB Tensor Toolbox",
+      "By application field and/or industry domain": "Scientific computing, high-order differential operators, deep learning, numerical linear algebra",
+      "Gaps and challenges": "Lack of mature sparse tensor data structures, efficient sorting, handling hyper\u2011sparsity in tensor products",
+      "Findings in research": "LCO structure offers faster, memory\u2011efficient sorting; radix\u2011based permutation yields significant speedups; poly\u2011algorithm gives 40%+ gains and >10\u00d7 speedup vs MATLAB",
+      "Evaluation method": "Benchmark experiments on high\u2011order differential operator cases, comparing against alternative high\u2011performance implementations and MATLAB Tensor Toolbox"
+    }
+  },
+  {
+    "paper": {
+      "Title": "A Creativity Survey of Parallel Sorting Algorithm",
+      "Year": "2022",
+      "PDF": "http://arxiv.org/pdf/2202.08463v1",
+      "Link": "http://arxiv.org/abs/2202.08463v1"
+    },
+    "abstract": "",
+    "fields": {
+      "Research type": "Survey and classification study of parallel sorting algorithms across CPU, GPU, and other platforms.",
+      "By process phases, stages": "Classifies research objects, methods, and measurement techniques; outlines research problems, methods, and experimental analysis stages.",
+      "By technology, framework, or platform": "Focuses on CPU, GPU, and other platforms (FPGA, hybrid) for parallel MergeSort, RadixSort, and other sorts.",
+      "By application field and/or industry domain": "Applies to data mining, supercomputing, information systems, and general computing where high\u2011performance sorting is needed.",
+      "Gaps and challenges": "Load imbalance, thread contention, memory access conflicts, limited exploration of novel hardware platforms, and need for scalable parallel optimization.",
+      "Findings in research": "Provides a taxonomy of parallel sorting research, summarizes existing work, and identifies under\u2011researched areas and future innovation directions.",
+      "Evaluation method": "Systematic literature review with comparative analysis of experimental results reported in cited studies."
+    }
+  },
+  {
+    "paper": {
+      "Title": "A Novel Hybrid Quicksort Algorithm Vectorized using AVX-512 on Intel Skylake",
+      "Year": "2017",
+      "PDF": "http://arxiv.org/pdf/1704.08579v2",
+      "Link": "http://arxiv.org/abs/1704.08579v2"
+    },
+    "abstract": "",
+    "fields": {
+      "Research type": "Experimental performance study of a vectorized hybrid Quicksort implementation.",
+      "By process phases, stages": "Algorithm design, SIMD vectorization, implementation, and benchmarking.",
+      "By technology, framework, or platform": "AVX-512 SIMD extensions on Intel Xeon Skylake, C++ library integration.",
+      "By application field and/or industry domain": "General-purpose sorting for databases, image rendering, and high\u2011performance computing.",
+      "Gaps and challenges": "Efficient vectorized partitioning, handling small arrays, and adapting classic algorithms to AVX-512.",
+      "Findings in research": "Hybrid AVX-512 Quicksort achieves up to 4\u00d7 speedup over GNU sort and 1.4\u00d7 over Intel IPP.",
+      "Evaluation method": "Empirical benchmarks on Skylake CPU comparing runtime against GNU C++ sort and Intel IPP libraries."
+    }
+  },
+  {
+    "paper": {
+      "Title": "A Hybrid Vectorized Merge Sort on ARM NEON",
+      "Year": "2024",
+      "PDF": "http://arxiv.org/pdf/2409.03970v1",
+      "Link": "http://arxiv.org/abs/2409.03970v1"
+    },
+    "abstract": "",
+    "fields": {
+      "Research type": "Algorithm design and performance evaluation of a SIMD\u2011based hybrid vectorized merge sort.",
+      "By process phases, stages": "Design of register optimization, column sorting network, hybrid bitonic merging network, implementation, and experimental benchmarking.",
+      "By technology, framework, or platform": "ARM NEON SIMD intrinsics, C++ (std::sort, boost::block_sort), FT2000+ processor.",
+      "By application field and/or industry domain": "General sorting for data processing, databases, image and visual computing, big\u2011data workloads.",
+      "Gaps and challenges": "Minimizing register\u2011to\u2011memory traffic, limited SIMD registers, designing efficient asymmetric merging networks.",
+      "Findings in research": "NEON\u2011MS achieves 3.8\u00d7 speedup over std::sort, 2.1\u00d7 over boost::block_sort, and 1.25\u00d7 over their parallel versions on average.",
+      "Evaluation method": "Empirical benchmarks on a single FT2000+ core comparing against standard and parallel sorting libraries."
+    }
+  },
+  {
+    "paper": {
+      "Title": "A Load-Balanced Parallel and Distributed Sorting Algorithm Implemented with PGX.D",
+      "Year": "2016",
+      "PDF": "http://arxiv.org/pdf/1611.00463v2",
+      "Link": "http://arxiv.org/abs/1611.00463v2"
+    },
+    "abstract": "",
+    "fields": {
+      "Research type": "Experimental performance evaluation of a parallel distributed sorting algorithm",
+      "By process phases, stages": "Data partitioning, load-balanced merging, communication latency hiding, workload balancing",
+      "By technology, framework, or platform": "Implemented in the PGX.D distributed graph processing framework; compared with Spark's sorting",
+      "By application field and/or industry domain": "Distributed big-data sorting for graph analytics and parallel supercomputing workloads",
+      "Gaps and challenges": "Load imbalance, communication overhead, synchronization barriers, high memory consumption limiting scalability",
+      "Findings in research": "PGX.D sorting achieves 2\u20133\u00d7 speedup over Spark, efficiently handles duplicated entries, keeps workloads balanced, reduces overhead",
+      "Evaluation method": "Empirical runtime benchmarks on varied data distributions, comparing PGX.D implementation against Spark"
+    }
+  }
+]

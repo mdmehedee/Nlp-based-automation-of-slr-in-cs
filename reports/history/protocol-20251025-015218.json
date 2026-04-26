@@ -1,0 +1,76 @@
+{
+  "topic": "NLP-Based Automation of Systematic Literature Reviews in Computer Science",
+  "picoc": {
+    "Population": [
+      "Computer Science Researchers",
+      "Software Engineers",
+      "Graduate Students",
+      "Review Authors",
+      "Domain Experts",
+      "researcher"
+    ],
+    "Intervention": [
+      "NLP Pipelines",
+      "Transformer Models",
+      "Semantic Search",
+      "Topic Modeling",
+      "Automated Screening"
+    ],
+    "Comparison": [
+      "Manual Screening",
+      "Keyword Search",
+      "Rule Based Systems",
+      "Classical ML",
+      "Baseline Heuristics"
+    ],
+    "Outcome": [
+      "Precision",
+      "Recall",
+      "f1-score",
+      "Processing Time",
+      "Scalability"
+    ],
+    "Context": [
+      "Digital Libraries",
+      "Conference Proceedings",
+      "ArXiv Repository",
+      "IEEE Xplore",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What NLP pipelines improve precision and recall of systematic literature review screening compared to manual screening for computer science researchers?",
+    "Which transformer-based semantic search methods reduce processing time while maintaining scalability in digital libraries for systematic literature reviews in computer science?",
+    "In which contexts (e.g., arXiv, IEEE Xplore) does automated topic modeling achieve higher f1-score than keyword search for graduate students conducting systematic reviews?"
+  ],
+  "base_query": "(\"Computer Science Researchers\" OR \"Software Engineers\" OR \"Graduate Students\" OR \"Review Authors\" OR \"Domain Experts\" OR \"researcher\") AND (\"NLP Pipelines\" OR \"Transformer Models\" OR \"Semantic Search\" OR \"Topic Modeling\" OR \"Automated Screening\") AND (\"Manual Screening\" OR \"Keyword Search\" OR \"Rule Based Systems\" OR \"Classical ML\" OR \"Baseline Heuristics\") AND (\"Precision\" OR \"Recall\" OR \"f1-score\" OR \"Processing Time\" OR \"Scalability\") AND (\"Digital Libraries\" OR \"Conference Proceedings\" OR \"ArXiv Repository\" OR \"IEEE Xplore\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Computer Science Researchers\" OR all:\"Software Engineers\" OR all:\"Graduate Students\" OR all:\"Review Authors\" OR all:\"Domain Experts\" OR all:\"researcher\") AND (all:\"NLP Pipelines\" OR all:\"Transformer Models\" OR all:\"Semantic Search\" OR all:\"Topic Modeling\" OR all:\"Automated Screening\") AND (all:\"Manual Screening\" OR all:\"Keyword Search\" OR all:\"Rule Based Systems\" OR all:\"Classical ML\" OR all:\"Baseline Heuristics\") AND (all:\"Precision\" OR all:\"Recall\" OR all:\"f1-score\" OR all:\"Processing Time\" OR all:\"Scalability\") AND (all:\"Digital Libraries\" OR all:\"Conference Proceedings\" OR all:\"ArXiv Repository\" OR all:\"IEEE Xplore\" OR all:\"Industry Reports\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2015-2025",
+      "English",
+      "Peer\u2011reviewed conference or journal papers",
+      "arXiv preprints with formal citation",
+      "arXiv CS categories (cs.*, stat.ML)",
+      "IEEE Xplore conference proceedings",
+      "Cited \u22655 times",
+      "Open\u2011access full text",
+      "PDF available"
+    ],
+    "exclude": [
+      "Before 2015",
+      "Non\u2011English",
+      "Workshop abstracts only",
+      "Non\u2011peer\u2011reviewed blog posts",
+      "Books or theses",
+      "Uncited or low\u2011impact venues",
+      "Paywalled without abstract",
+      "Focuses solely on theoretical NLP without SLR application",
+      "Evaluates only keyword search without automation"
+    ]
+  }
+}

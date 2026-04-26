@@ -1,0 +1,108 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Processing Systems",
+      "Embedded Systems",
+      "High Performance Computing",
+      "Researcher"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "Merge Sort",
+      "Heap Sort",
+      "Radix Sort",
+      "Tim Sort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Bubble Sort",
+      "Selection Sort",
+      "Shell Sort",
+      "Naive Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Scalability",
+      "Throughput"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industrial Case Studies"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, Merge Sort, Heap Sort, Radix Sort, and Tim Sort compared to Insertion, Bubble, Selection, Shell, and Naive Sorts in benchmark suites?",
+    "Which sorting algorithms among QuickSort, Merge Sort, Heap Sort, Radix Sort, and Tim Sort provide better stability and scalability for data processing systems in open source repositories?",
+    "How do software developers and algorithm researchers report throughput differences between QuickSort, Merge Sort, Heap Sort, Radix Sort, Tim Sort and classic sorts in academic journals and conference papers?"
+  ],
+  "base_query": "(\"Software Developers\" OR \"Algorithm Researchers\" OR \"Data Processing Systems\" OR \"Embedded Systems\" OR \"High Performance Computing\" OR \"Researcher\") AND (\"QuickSort\" OR \"Merge Sort\" OR \"Heap Sort\" OR \"Radix Sort\" OR \"Tim Sort\") AND (\"Insertion Sort\" OR \"Bubble Sort\" OR \"Selection Sort\" OR \"Shell Sort\" OR \"Naive Sort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Stability\" OR \"Scalability\" OR \"Throughput\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industrial Case Studies\")",
+  "arxiv_query": "(all:\"Software Developers\" OR all:\"Algorithm Researchers\" OR all:\"Data Processing Systems\" OR all:\"Embedded Systems\" OR all:\"High Performance Computing\" OR all:\"Researcher\") AND (all:\"QuickSort\" OR all:\"Merge Sort\" OR all:\"Heap Sort\" OR all:\"Radix Sort\" OR all:\"Tim Sort\") AND (all:\"Insertion Sort\" OR all:\"Bubble Sort\" OR all:\"Selection Sort\" OR all:\"Shell Sort\" OR all:\"Naive Sort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Stability\" OR all:\"Scalability\" OR all:\"Throughput\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industrial Case Studies\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2010-2025",
+      "Last 10 years",
+      "Published after 2010",
+      "English",
+      "English abstract",
+      "English full text",
+      "Conference papers",
+      "Journal articles",
+      "arXiv preprints",
+      "arXiv CS categories (cs.DS, cs.SE, cs.CV)"
+    ],
+    "exclude": [
+      "Before 2010",
+      "Older than 15 years",
+      "Pre\u20112000",
+      "Non\u2011English",
+      "Languages other than English",
+      "No English abstract",
+      "Books",
+      "Theses",
+      "Patents",
+      "Non\u2011CS arXiv categories"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Is the algorithm implementation described in sufficient detail to allow replication?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the benchmark datasets and hardware configurations fully reported?",
+        "weight": 1.0
+      },
+      {
+        "text": "Does the study use statistically appropriate methods to compare algorithm performance?",
+        "weight": 0.5
+      },
+      {
+        "text": "Are limitations of the evaluation (e.g., input size, data distribution) acknowledged?",
+        "weight": 0.5
+      },
+      {
+        "text": "Is the relevance of the algorithm to the stated context clearly justified?",
+        "weight": 1.0
+      }
+    ],
+    "cutoff": 2.6
+  }
+}

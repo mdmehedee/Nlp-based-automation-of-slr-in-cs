@@ -1,0 +1,107 @@
+{
+  "topic": "Sorting Algorithms",
+  "picoc": {
+    "Population": [
+      "Software Developers",
+      "Algorithm Researchers",
+      "Data Processing Systems",
+      "Embedded Devices",
+      "High Performance Computing"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "MergeSort",
+      "HeapSort",
+      "Radix Sort",
+      "TimSort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Bubble Sort",
+      "Selection Sort",
+      "Shell Sort",
+      "Naive Sort"
+    ],
+    "Outcome": [
+      "Time Complexity",
+      "Space Complexity",
+      "Stability",
+      "Cache Efficiency",
+      "Throughput"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the reported time and space complexities of QuickSort, MergeSort, HeapSort, Radix Sort, and TimSort versus classic sorts in academic journals and conference proceedings?",
+    "Which sorting algorithm among QuickSort, MergeSort, HeapSort, Radix Sort, and TimSort provides the best cache efficiency for data processing systems in benchmark suites?",
+    "In which scenarios do high\u2011performance computing applications prefer modern sorts (QuickSort, MergeSort, HeapSort, Radix Sort, TimSort) over traditional sorts regarding throughput and stability?"
+  ],
+  "base_query": "(\"Software Developers\" OR \"Algorithm Researchers\" OR \"Data Processing Systems\" OR \"Embedded Devices\" OR \"High Performance Computing\") AND (\"QuickSort\" OR \"MergeSort\" OR \"HeapSort\" OR \"Radix Sort\" OR \"TimSort\") AND (\"Insertion Sort\" OR \"Bubble Sort\" OR \"Selection Sort\" OR \"Shell Sort\" OR \"Naive Sort\") AND (\"Time Complexity\" OR \"Space Complexity\" OR \"Stability\" OR \"Cache Efficiency\" OR \"Throughput\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Software Developers\" OR all:\"Algorithm Researchers\" OR all:\"Data Processing Systems\" OR all:\"Embedded Devices\" OR all:\"High Performance Computing\") AND (all:\"QuickSort\" OR all:\"MergeSort\" OR all:\"HeapSort\" OR all:\"Radix Sort\" OR all:\"TimSort\") AND (all:\"Insertion Sort\" OR all:\"Bubble Sort\" OR all:\"Selection Sort\" OR all:\"Shell Sort\" OR all:\"Naive Sort\") AND (all:\"Time Complexity\" OR all:\"Space Complexity\" OR all:\"Stability\" OR all:\"Cache Efficiency\" OR all:\"Throughput\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industry Reports\")",
+  "libraries": [
+    "arxiv"
+  ],
+  "criteria_global": {
+    "include": [
+      "From 2015 to 2025",
+      "2010\u20132025",
+      "Last 15 years",
+      "English language",
+      "English abstract",
+      "Peer\u2011reviewed conference papers",
+      "Preprint research articles",
+      "arXiv CS categories (e.g., cs.DS, cs.SE)",
+      "Conference proceedings indexed in DBLP",
+      "Citations \u2265 10",
+      "Accepted at top CS venues"
+    ],
+    "exclude": [
+      "Before 2000",
+      "Older than 20 years",
+      "Non\u2011English full text",
+      "Languages other than English",
+      "Blog posts",
+      "Tutorials or white\u2011papers",
+      "arXiv non\u2011CS categories",
+      "Popular media outlets",
+      "Citation count < 5",
+      "Non\u2011cited preprints"
+    ]
+  },
+  "qa_checklist": {
+    "answers": {
+      "Yes": 1.0,
+      "Partial": 0.5,
+      "No": 0.0
+    },
+    "questions": [
+      {
+        "text": "Does the study clearly state its objectives and research questions?",
+        "weight": 1.0
+      },
+      {
+        "text": "Are the experimental setup, datasets, and hardware configurations described in detail?",
+        "weight": 1.0
+      },
+      {
+        "text": "Is the evaluation methodology (metrics, benchmarks) appropriate for assessing sorting performance?",
+        "weight": 0.5
+      },
+      {
+        "text": "Are the results reproducible, with code or scripts made publicly available?",
+        "weight": 1.0
+      },
+      {
+        "text": "Does the study discuss limitations and threats to validity of its findings?",
+        "weight": 0.5
+      }
+    ],
+    "cutoff": 2.6
+  }
+}

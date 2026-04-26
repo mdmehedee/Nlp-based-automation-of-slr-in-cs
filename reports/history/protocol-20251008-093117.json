@@ -1,0 +1,30 @@
+{
+  "topic": "NLP-Based Automation of Systematic Literature Reviews in Computer Science",
+  "picoc": {
+    "Population": [
+      "Computer Science Researchers"
+    ],
+    "Intervention": [
+      "NLP Based Automation"
+    ],
+    "Comparison": [
+      "Manual Screening",
+      "Traditional Bibliometrics"
+    ],
+    "Outcome": [
+      "Precision",
+      "Reproducibility"
+    ],
+    "Context": [
+      "Digital Libraries",
+      "Academic Search Engines"
+    ]
+  },
+  "rqs": [
+    "What is the precision of NLP-based automation tools for screening Computer Science literature compared to manual screening?",
+    "In which digital library or academic search engine contexts does NLP-based automation improve reproducibility of systematic literature reviews in Computer Science?",
+    "Which NLP-based automation techniques yield higher precision and reproducibility than traditional bibliometrics for Computer Science systematic reviews?"
+  ],
+  "base_query": "(\"Computer Science Researchers\") AND (\"NLP Based Automation\") AND (\"Manual Screening\" OR \"Traditional Bibliometrics\") AND (\"Precision\" OR \"Reproducibility\") AND (\"Digital Libraries\" OR \"Academic Search Engines\")",
+  "arxiv_query": "(all:\"Computer Science Researchers\") AND (all:\"NLP Based Automation\") AND (all:\"Manual Screening\" OR all:\"Traditional Bibliometrics\") AND (all:\"Precision\" OR all:\"Reproducibility\") AND (all:\"Digital Libraries\" OR all:\"Academic Search Engines\")"
+}

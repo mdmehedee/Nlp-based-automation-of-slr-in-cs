@@ -1,0 +1,25 @@
+{
+  "topic": "NLP-Based Automation of Systematic Literature Reviews in Computer Science",
+  "picoc": {
+    "Population": [
+      "Computer Science Researchers"
+    ],
+    "Intervention": [
+      "Transformer Models"
+    ],
+    "Comparison": [
+      "Manual Screening"
+    ],
+    "Outcome": [
+      "precision"
+    ],
+    "Context": [
+      "Digital Libraries"
+    ]
+  },
+  "rqs": [
+    "What is the precision of transformer\u2011based automation compared to manual screening for systematic literature reviews by CS researchers in digital libraries?"
+  ],
+  "base_query": "(\"Computer Science Researchers\") AND (\"Transformer Models\") AND (\"Manual Screening\") AND (\"precision\") AND (\"Digital Libraries\")",
+  "arxiv_query": "(all:\"Computer Science Researchers\") AND (all:\"Transformer Models\") AND (all:\"Manual Screening\") AND (all:\"precision\") AND (all:\"Digital Libraries\")"
+}

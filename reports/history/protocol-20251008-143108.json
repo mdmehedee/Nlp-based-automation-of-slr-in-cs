@@ -1,0 +1,48 @@
+{
+  "topic": "Sorting Algorithm",
+  "picoc": {
+    "Population": [
+      "Algorithm Researchers",
+      "Software Developers",
+      "Database Systems",
+      "Embedded Systems",
+      "High Performance Computing",
+      "researchers"
+    ],
+    "Intervention": [
+      "QuickSort",
+      "Merge Sort",
+      "Heap Sort",
+      "Radix Sort",
+      "Tim Sort"
+    ],
+    "Comparison": [
+      "Insertion Sort",
+      "Selection Sort",
+      "Bubble Sort",
+      "Shell Sort",
+      "Counting Sort"
+    ],
+    "Outcome": [
+      "time complexity",
+      "space complexity",
+      "stability",
+      "comparisons",
+      "throughput"
+    ],
+    "Context": [
+      "Academic Journals",
+      "Conference Proceedings",
+      "Open Source Repositories",
+      "Benchmark Suites",
+      "Industry Reports"
+    ]
+  },
+  "rqs": [
+    "What are the time and space complexities of QuickSort, Merge Sort, Heap Sort, Radix Sort, and Tim Sort compared to classic sorts in academic and industry contexts?",
+    "Which sorting algorithm among QuickSort, Merge Sort, Heap Sort, Radix Sort, and Tim Sort provides the best stability and throughput for high\u2011performance computing workloads?",
+    "In which scenarios do QuickSort, Merge Sort, Heap Sort, Radix Sort, or Tim Sort outperform Insertion, Selection, Bubble, Shell, or Counting Sort regarding comparisons and throughput?"
+  ],
+  "base_query": "(\"Algorithm Researchers\" OR \"Software Developers\" OR \"Database Systems\" OR \"Embedded Systems\" OR \"High Performance Computing\" OR \"researchers\") AND (\"QuickSort\" OR \"Merge Sort\" OR \"Heap Sort\" OR \"Radix Sort\" OR \"Tim Sort\") AND (\"Insertion Sort\" OR \"Selection Sort\" OR \"Bubble Sort\" OR \"Shell Sort\" OR \"Counting Sort\") AND (\"time complexity\" OR \"space complexity\" OR \"stability\" OR \"comparisons\" OR \"throughput\") AND (\"Academic Journals\" OR \"Conference Proceedings\" OR \"Open Source Repositories\" OR \"Benchmark Suites\" OR \"Industry Reports\")",
+  "arxiv_query": "(all:\"Algorithm Researchers\" OR all:\"Software Developers\" OR all:\"Database Systems\" OR all:\"Embedded Systems\" OR all:\"High Performance Computing\" OR all:\"researchers\") AND (all:\"QuickSort\" OR all:\"Merge Sort\" OR all:\"Heap Sort\" OR all:\"Radix Sort\" OR all:\"Tim Sort\") AND (all:\"Insertion Sort\" OR all:\"Selection Sort\" OR all:\"Bubble Sort\" OR all:\"Shell Sort\" OR all:\"Counting Sort\") AND (all:\"time complexity\" OR all:\"space complexity\" OR all:\"stability\" OR all:\"comparisons\" OR all:\"throughput\") AND (all:\"Academic Journals\" OR all:\"Conference Proceedings\" OR all:\"Open Source Repositories\" OR all:\"Benchmark Suites\" OR all:\"Industry Reports\")"
+}
