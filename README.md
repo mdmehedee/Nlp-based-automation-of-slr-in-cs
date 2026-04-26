@@ -1,6 +1,4 @@
-# Automated SLR (Computer Science)
-
-AI-assisted prototype for **Systematic Literature Review (SLR)** in Computer Science, built with **Streamlit**.
+# NLP-Based Automation of Systematic Literature Reviews in Computer Science
 
 The app supports a full pipeline from planning to conducting:
 - topic and PICOC definition
